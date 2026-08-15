@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ePortfolio of Vo Phan Vuong Hung — Economics & Finance student at RMIT University Vietnam, showcasing academic growth, quantitative research, and graduate capabilities.">
+    <title>Vo Phan Vuong Hung | Economics & Finance ePortfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* ───────────── CSS RESET & CUSTOM PROPERTIES ───────────── */
+        :root {
+            --font-head: 'Outfit', sans-serif;
+            --font-body: 'Inter', sans-serif;
+            --bg-primary: #020617;
+            --bg-secondary: #0f172a;
+            --bg-tertiary: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #cbd5e1;
+            --text-muted: #94a3b8;
+            --accent-primary: #6366f1;
+            --accent-secondary: #8b5cf6;
+            --accent-gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+            --accent-success: #10b981;
+            --success-gradient: linear-gradient(135deg, #10b981 0%, #14b8a6 100%);
+            --amber: #f59e0b;
+            --amber-gradient: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            --border-color: rgba(255,255,255,0.08);
+            --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.3), 0 4px 6px -4px rgba(0,0,0,0.3);
+            --card-glow: rgba(99,102,241,0.15);
+            --glass-bg: rgba(15,23,42,0.7);
+            --glass-border: rgba(255,255,255,0.08);
+        }
+        [data-theme="light"] {
+            --bg-primary: #f8fafc;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f1f5f9;
+            --text-primary: #0f172a;
+            --text-secondary: #334155;
+            --text-muted: #64748b;
+            --accent-primary: #4f46e5;
+            --accent-secondary: #7c3aed;
+            --accent-gradient: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            --accent-success: #059669;
+            --success-gradient: linear-gradient(135deg, #059669 0%, #0d9488 100%);
+            --amber: #d97706;
+            --amber-gradient: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+            --border-color: rgba(15,23,42,0.08);
+            --shadow-lg: 0 10px 25px -5px rgba(0,0,0,0.08);
+            --card-glow: rgba(79,70,229,0.05);
+            --glass-bg: rgba(255,255,255,0.8);
+            --glass-border: rgba(15,23,42,0.08);
+        }
+
+        *{ box-sizing:border-box; margin:0; padding:0; scroll-behavior:smooth; }
+        body{ background:var(--bg-primary); color:var(--text-primary); font-family:var(--font-body); line-height:1.65; overflow-x:hidden; transition:background .4s,color .4s; }
+        a{ color:inherit; text-decoration:none; }
+        img{ max-width:100%; display:block; }
+
+        ::-webkit-scrollbar{ width:8px; }
+        ::-webkit-scrollbar-track{ background:var(--bg-primary); }
+        ::-webkit-scrollbar-thumb{ background:var(--bg-tertiary); border-radius:4px; }
+        ::-webkit-scrollbar-thumb:hover{ background:var(--accent-primary); }
+
+        /* ───────────── NAVIGATION ───────────── */
+        header{ position:fixed; top:0; left:0; width:100%; z-index:1000; background:var(--glass-bg); backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px); border-bottom:1px solid var(--glass-border); }
+        .nav-container{ max-width:1200px; margin:0 auto; padding:.9rem 2rem; display:flex; justify-content:space-between; align-items:center; }
+        .logo{ font-family:var(--font-head); font-size:1.25rem; font-weight:800; background:var(--accent-gradient); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+        .nav-links{ display:flex; align-items:center; gap:1.8rem; list-style:none; }
+        .nav-links a{ font-size:.88rem; font-weight:500; color:var(--text-secondary); transition:color .2s; position:relative; }
+        .nav-links a:hover{ color:var(--text-primary); }
+        .nav-links a::after{ content:''; position:absolute; bottom:-4px; left:0; width:0; height:2px; background:var(--accent-gradient); transition:width .2s; }
+        .nav-links a:hover::after{ width:100%; }
+        .controls{ display:flex; align-items:center; gap:1rem; }
+        .theme-toggle{ background:none; border:1px solid var(--border-color); color:var(--text-primary); cursor:pointer; font-size:1.05rem; padding:.45rem; border-radius:50%; width:36px; height:36px; display:flex; align-items:center; justify-content:center; transition:background .2s,transform .2s; }
+        .theme-toggle:hover{ background:var(--bg-tertiary); transform:scale(1.08); }
+        .menu-toggle{ display:none; background:none; border:none; color:var(--text-primary); font-size:1.4rem; cursor:pointer; }
+
+        /* ───────────── BUTTONS ───────────── */
+        .btn{ display:inline-flex; align-items:center; gap:.65rem; padding:.75rem 1.6rem; border-radius:8px; font-weight:600; font-size:.92rem; transition:all .3s; cursor:pointer; border:none; }
+        .btn-primary{ background:var(--accent-gradient); color:#fff; box-shadow:0 4px 14px rgba(99,102,241,.35); }
+        .btn-primary:hover{ transform:translateY(-2px); box-shadow:0 6px 20px rgba(99,102,241,.55); }
+        .btn-secondary{ background:var(--bg-secondary); color:var(--text-primary); border:1px solid var(--border-color); }
+        .btn-secondary:hover{ background:var(--bg-tertiary); transform:translateY(-2px); }
+        .btn-sm{ padding:.5rem 1rem; font-size:.82rem; border-radius:6px; }
+
+        /* ───────────── SECTION LAYOUT ───────────── */
+        section{ padding:5.5rem 2rem; max-width:1200px; margin:0 auto; }
+        .section-header{ text-align:center; margin-bottom:3.5rem; }
+        .section-title{ font-family:var(--font-head); font-size:2.4rem; font-weight:700; letter-spacing:-.5px; margin-bottom:.75rem; }
+        .section-subtitle{ font-size:1rem; color:var(--text-muted); max-width:620px; margin:0 auto; }
+
+        /* ───────────── HERO ───────────── */
+        .hero{ min-height:100vh; display:flex; align-items:center; justify-content:center; padding:8rem 2rem 4rem; background:radial-gradient(circle at 10% 20%,var(--card-glow) 0%,transparent 40%),radial-gradient(circle at 90% 80%,rgba(139,92,246,.1) 0%,transparent 40%); }
+        .hero-content{ max-width:900px; text-align:center; }
+        .badge{ background:var(--glass-bg); border:1px solid var(--glass-border); padding:.45rem 1rem; border-radius:9999px; font-size:.82rem; font-weight:500; color:var(--accent-primary); display:inline-flex; align-items:center; gap:.5rem; margin-bottom:1.5rem; }
+        .hero-title{ font-family:var(--font-head); font-size:3.8rem; font-weight:800; letter-spacing:-1.5px; line-height:1.1; margin-bottom:1.25rem; }
+        .hero-title span{ background:var(--accent-gradient); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+        .hero-subtitle{ font-size:1.2rem; color:var(--text-secondary); max-width:700px; margin:0 auto 2.5rem; }
+        .hero-buttons{ display:flex; justify-content:center; gap:1rem; flex-wrap:wrap; }
+
+        /* ───────────── THREE PILLARS (new) ───────────── */
+        .pillars{ display:grid; grid-template-columns:repeat(3,1fr); gap:1.5rem; margin-top:3.5rem; }
+        .pillar{ background:var(--bg-secondary); border:1px solid var(--border-color); border-radius:12px; padding:2rem; text-align:center; transition:transform .3s,border-color .3s; }
+        .pillar:hover{ transform:translateY(-4px); border-color:var(--accent-primary); }
+        .pillar-icon{ font-size:2rem; margin-bottom:.75rem; }
+        .pillar-icon.econ{ background:var(--success-gradient); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+        .pillar-icon.fin{ background:var(--amber-gradient); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+        .pillar-icon.data{ background:var(--accent-gradient); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+        .pillar h3{ font-family:var(--font-head); font-size:1.2rem; font-weight:700; margin-bottom:.5rem; }
+        .pillar p{ font-size:.88rem; color:var(--text-muted); line-height:1.5; }
+
+        /* ───────────── ABOUT ───────────── */
+        .about-grid{ display:grid; grid-template-columns:1.2fr 1fr; gap:4rem; align-items:center; }
+        .about-text p{ margin-bottom:1.2rem; color:var(--text-secondary); font-size:1.02rem; }
+        .about-stats{ display:grid; grid-template-columns:repeat(2,1fr); gap:1.25rem; }
+        .stat-card{ background:var(--bg-secondary); border:1px solid var(--border-color); padding:1.5rem; border-radius:12px; text-align:center; transition:transform .3s,border-color .3s; }
+        .stat-card:hover{ transform:translateY(-4px); border-color:var(--accent-primary); box-shadow:0 10px 20px var(--card-glow); }
+        .stat-icon{ font-size:1.6rem; margin-bottom:.6rem; background:var(--accent-gradient); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+        .stat-value{ font-family:var(--font-head); font-size:1.9rem; font-weight:700; margin-bottom:.2rem; }
+        .stat-label{ font-size:.78rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:.8px; font-weight:600; }
+
+        /* ───────────── DEVELOPMENT (5-stage) ───────────── */
+        .dev-stages{ display:grid; gap:2rem; max-width:850px; margin:0 auto; }
+        .dev-card{ background:var(--bg-secondary); border:1px solid var(--border-color); border-radius:12px; padding:2rem 2.5rem; display:flex; gap:2rem; align-items:flex-start; transition:transform .3s,border-color .3s; }
+        .dev-card:hover{ transform:translateY(-3px); border-color:var(--accent-primary); }
+        .dev-num{ font-family:var(--font-head); font-size:2.4rem; font-weight:800; background:var(--accent-gradient); -webkit-background-clip:text; -webkit-text-fill-color:transparent; flex-shrink:0; width:48px; }
+        .dev-card.stage-econ .dev-num{ background:var(--success-gradient); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+        .dev-card.stage-fin .dev-num{ background:var(--amber-gradient); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+        .dev-body h3{ font-family:var(--font-head); font-size:1.2rem; font-weight:700; margin-bottom:.3rem; }
+        .dev-body .dev-sub{ font-size:.85rem; color:var(--accent-primary); font-weight:600; margin-bottom:.6rem; }
+        .dev-body p{ font-size:.92rem; color:var(--text-secondary); }
+        .dev-evidence{ display:flex; flex-wrap:wrap; gap:.5rem; margin-top:.75rem; }
+        .dev-evidence span{ font-size:.78rem; padding:.2rem .55rem; border-radius:4px; background:var(--bg-tertiary); color:var(--text-muted); border:1px solid var(--border-color); }
+
+        /* ───────────── PORTFOLIO CARDS ───────────── */
+        .filter-buttons{ display:flex; justify-content:center; gap:.75rem; margin-bottom:3rem; flex-wrap:wrap; }
+        .filter-btn{ background:var(--bg-secondary); border:1px solid var(--border-color); color:var(--text-secondary); padding:.45rem 1.15rem; border-radius:6px; font-size:.88rem; cursor:pointer; transition:all .2s; font-weight:500; }
+        .filter-btn.active,.filter-btn:hover{ background:var(--accent-gradient); color:#fff; border-color:transparent; box-shadow:0 4px 10px rgba(99,102,241,.3); }
+        .portfolio-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(340px,1fr)); gap:2rem; }
+        .portfolio-card{ background:var(--bg-secondary); border:1px solid var(--border-color); border-radius:12px; overflow:hidden; display:flex; flex-direction:column; transition:transform .3s,border-color .3s,box-shadow .3s; }
+        .portfolio-card:hover{ transform:translateY(-5px); border-color:rgba(99,102,241,.3); box-shadow:0 12px 24px -10px rgba(0,0,0,.5),0 0 15px var(--card-glow); }
+        .card-banner{ height:7px; background:var(--accent-gradient); }
+        .portfolio-card.econometrics .card-banner{ background:var(--success-gradient); }
+        .portfolio-card.finance .card-banner{ background:var(--amber-gradient); }
+        .card-body{ padding:1.75rem; display:flex; flex-direction:column; flex-grow:1; }
+        .card-meta{ display:flex; justify-content:space-between; font-size:.76rem; color:var(--text-muted); margin-bottom:.6rem; text-transform:uppercase; font-weight:600; letter-spacing:.5px; }
+        .card-meta-course{ color:var(--accent-primary); }
+        .portfolio-card.econometrics .card-meta-course{ color:var(--accent-success); }
+        .portfolio-card.finance .card-meta-course{ color:var(--amber); }
+        .card-title{ font-family:var(--font-head); font-size:1.25rem; font-weight:700; line-height:1.3; margin-bottom:.8rem; }
+        .card-caption{ font-size:.9rem; color:var(--text-secondary); margin-bottom:1.25rem; flex-grow:1; }
+        .card-tags{ display:flex; flex-wrap:wrap; gap:.4rem; margin-bottom:1.25rem; }
+        .tag{ background:var(--bg-tertiary); color:var(--text-secondary); font-size:.75rem; padding:.2rem .55rem; border-radius:4px; font-weight:500; border:1px solid var(--border-color); }
+        .card-rubric-meta{ border-top:1px solid var(--border-color); padding-top:.85rem; margin-bottom:1rem; font-size:.78rem; }
+        .rubric-row{ display:flex; margin-bottom:.35rem; }
+        .rubric-label{ font-weight:600; color:var(--text-muted); width:75px; flex-shrink:0; }
+        .rubric-val{ color:var(--text-secondary); }
+        .card-links{ display:flex; gap:.6rem; flex-wrap:wrap; }
+        .card-link{ flex:1; min-width:0; text-align:center; padding:.55rem; border-radius:6px; font-size:.82rem; font-weight:600; border:1px solid var(--border-color); transition:all .2s; display:inline-flex; align-items:center; justify-content:center; gap:.4rem; white-space:nowrap; }
+        .card-link:hover{ border-color:var(--accent-primary); color:var(--accent-primary); }
+        .card-link-detail{ background:var(--accent-gradient); color:#fff; border:none; }
+        .card-link-detail:hover{ opacity:.9; color:#fff; }
+
+        /* ───────────── PROJECT DETAIL MODAL ───────────── */
+        .modal-overlay{ display:none; position:fixed; inset:0; z-index:2000; background:rgba(0,0,0,.65); backdrop-filter:blur(4px); justify-content:center; align-items:flex-start; padding:5rem 1rem 2rem; overflow-y:auto; }
+        .modal-overlay.active{ display:flex; }
+        .modal{ background:var(--bg-secondary); border:1px solid var(--border-color); border-radius:14px; max-width:780px; width:100%; padding:2.5rem; position:relative; animation:modalIn .3s ease; }
+        @keyframes modalIn{ from{ opacity:0; transform:translateY(20px);} to{ opacity:1; transform:translateY(0);} }
+        .modal-close{ position:absolute; top:1rem; right:1rem; background:var(--bg-tertiary); border:1px solid var(--border-color); color:var(--text-primary); width:36px; height:36px; border-radius:50%; cursor:pointer; font-size:1.1rem; display:flex; align-items:center; justify-content:center; transition:background .2s; }
+        .modal-close:hover{ background:var(--accent-primary); color:#fff; }
+        .modal-badge{ display:inline-block; font-size:.78rem; font-weight:700; text-transform:uppercase; letter-spacing:.5px; padding:.3rem .8rem; border-radius:4px; margin-bottom:1rem; }
+        .modal-badge.ml-badge{ background:rgba(99,102,241,.15); color:var(--accent-primary); }
+        .modal-badge.econ-badge{ background:rgba(16,185,129,.15); color:var(--accent-success); }
+        .modal-badge.fin-badge{ background:rgba(245,158,11,.15); color:var(--amber); }
+        .modal h2{ font-family:var(--font-head); font-size:1.7rem; font-weight:700; margin-bottom:.5rem; }
+        .modal-meta{ font-size:.88rem; color:var(--text-muted); margin-bottom:1.5rem; }
+        .modal-section{ margin-bottom:1.5rem; }
+        .modal-section h4{ font-family:var(--font-head); font-size:1rem; font-weight:700; text-transform:uppercase; letter-spacing:.5px; color:var(--accent-primary); margin-bottom:.5rem; display:flex; align-items:center; gap:.5rem; }
+        .modal-section p{ font-size:.92rem; color:var(--text-secondary); line-height:1.7; }
+        .modal-evidence{ display:flex; gap:.75rem; flex-wrap:wrap; margin-top:1.5rem; padding-top:1rem; border-top:1px solid var(--border-color); }
+        .modal-evidence a{ display:inline-flex; align-items:center; gap:.4rem; padding:.55rem 1.1rem; border-radius:6px; font-size:.85rem; font-weight:600; border:1px solid var(--border-color); transition:all .2s; }
+        .modal-evidence a:hover{ border-color:var(--accent-primary); color:var(--accent-primary); }
+
+        /* ───────────── CAPABILITIES ───────────── */
+        .capabilities-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:2.5rem; }
+        .capability-card{ background:var(--bg-secondary); border:1px solid var(--border-color); border-radius:12px; padding:2.25rem; transition:transform .3s; }
+        .capability-card:hover{ transform:translateY(-4px); }
+        .cap-header{ display:flex; align-items:center; gap:1rem; margin-bottom:1.25rem; }
+        .cap-icon{ width:48px; height:48px; border-radius:10px; background:var(--accent-gradient); display:flex; align-items:center; justify-content:center; color:#fff; font-size:1.3rem; }
+        .capability-card.expert .cap-icon{ background:var(--success-gradient); }
+        .cap-code{ font-size:.78rem; font-weight:700; color:var(--text-muted); letter-spacing:.5px; text-transform:uppercase; }
+        .cap-title{ font-family:var(--font-head); font-size:1.4rem; font-weight:700; }
+        .cap-text{ color:var(--text-secondary); font-size:.92rem; margin-bottom:1.25rem; }
+        .cap-evidence-list{ list-style:none; }
+        .cap-evidence-item{ display:flex; align-items:center; gap:.65rem; font-size:.88rem; color:var(--text-secondary); margin-bottom:.65rem; }
+        .cap-evidence-item i{ color:var(--accent-primary); }
+        .capability-card.expert .cap-evidence-item i{ color:var(--accent-success); }
+
+        /* ───────────── CERTIFICATES ───────────── */
+        .certificates-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:2rem; }
+        .certificate-card{ background:var(--bg-secondary); border:1px solid var(--border-color); border-radius:10px; padding:1.75rem; display:flex; gap:1.25rem; align-items:center; transition:transform .3s; }
+        .certificate-card:hover{ transform:translateY(-3px); }
+        .cert-icon{ font-size:2.2rem; color:var(--amber); flex-shrink:0; }
+        .cert-title{ font-family:var(--font-head); font-size:1.1rem; font-weight:700; margin-bottom:.2rem; }
+        .cert-org{ font-size:.82rem; color:var(--accent-primary); font-weight:600; margin-bottom:.4rem; }
+        .cert-desc{ font-size:.85rem; color:var(--text-secondary); margin-bottom:.6rem; }
+        .cert-link{ font-size:.82rem; font-weight:600; display:inline-flex; align-items:center; gap:.35rem; }
+        .cert-link:hover{ color:var(--accent-primary); }
+
+        /* ───────────── FUTURE (4 cards) ───────────── */
+        .future-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:1.5rem; }
+        .future-card{ background:var(--bg-secondary); border:1px solid var(--border-color); border-radius:12px; padding:2rem; transition:transform .3s; }
+        .future-card:hover{ transform:translateY(-4px); }
+        .future-card-num{ font-family:var(--font-head); font-size:1.8rem; font-weight:800; background:var(--accent-gradient); -webkit-background-clip:text; -webkit-text-fill-color:transparent; margin-bottom:.5rem; }
+        .future-card h3{ font-family:var(--font-head); font-size:1.15rem; font-weight:700; margin-bottom:.5rem; }
+        .future-card .gap-label{ font-size:.82rem; font-weight:600; color:var(--accent-primary); margin-bottom:.35rem; }
+        .future-card p{ font-size:.9rem; color:var(--text-secondary); }
+
+        /* ───────────── FOOTER ───────────── */
+        footer{ background:var(--bg-secondary); border-top:1px solid var(--border-color); padding:3.5rem 2rem; text-align:center; }
+        .footer-content{ max-width:600px; margin:0 auto; }
+        .footer-name{ font-family:var(--font-head); font-size:1.4rem; font-weight:700; margin-bottom:.35rem; }
+        .footer-tagline{ color:var(--text-muted); margin-bottom:1.25rem; font-size:.88rem; }
+        .footer-socials{ display:flex; justify-content:center; gap:1.25rem; margin-bottom:1.75rem; }
+        .social-link{ width:40px; height:40px; border-radius:50%; border:1px solid var(--border-color); display:flex; align-items:center; justify-content:center; transition:all .2s; font-size:1.05rem; color:var(--text-secondary); }
+        .social-link:hover{ border-color:var(--accent-primary); color:var(--accent-primary); transform:translateY(-2px); }
+        .footer-copy{ font-size:.78rem; color:var(--text-muted); border-top:1px solid var(--border-color); padding-top:1.5rem; }
+
+        /* ───────────── RESPONSIVE ───────────── */
+        @media(max-width:1024px){
+            .hero-title{ font-size:3rem; }
+            .about-grid,.capabilities-grid,.certificates-grid,.future-grid{ grid-template-columns:1fr; }
+            .pillars{ grid-template-columns:1fr; }
+        }
+        @media(max-width:768px){
+            .menu-toggle{ display:block; }
+            .nav-links{ display:none; flex-direction:column; position:absolute; top:100%; left:0; width:100%; background:var(--bg-secondary); border-bottom:1px solid var(--border-color); padding:1.5rem 2rem; gap:1.1rem; align-items:flex-start; box-shadow:var(--shadow-lg); }
+            .nav-links.active{ display:flex; }
+            .hero-title{ font-size:2.4rem; }
+            .hero-subtitle{ font-size:1.05rem; }
+            .dev-card{ flex-direction:column; gap:1rem; }
+            .portfolio-grid{ grid-template-columns:1fr; }
+            .hero-buttons{ flex-direction:column; gap:.65rem; }
+            .modal{ padding:1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ═══════════ HEADER ═══════════ -->
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo">Hung Vo</a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><i class="fa-solid fa-bars"></i></button>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#development">Development</a></li>
+                    <li><a href="#work">Selected Work</a></li>
+                    <li><a href="#capabilities">Capabilities</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#future">Future</a></li>
+                </ul>
+            </nav>
+            <div class="controls">
+                <button class="theme-toggle" id="themeToggle" title="Toggle Theme" aria-label="Toggle Theme"><i class="fa-solid fa-moon"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ═══════════ HERO ═══════════ -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="badge"><i class="fa-solid fa-graduation-cap"></i> RMIT Economics & Finance Student</div>
+            <h1 class="hero-title">Vo Phan Vuong Hung<br><span>Graduate ePortfolio</span></h1>
+            <p class="hero-subtitle">Building analytical and digital capabilities through economics, finance, and technology coursework.</p>
+            <div class="hero-buttons">
+                <a href="#work" class="btn btn-primary"><i class="fa-solid fa-briefcase"></i> Explore My Work</a>
+                <a href="cv/CV.docx" class="btn btn-secondary"><i class="fa-solid fa-file-lines"></i> CV</a>
+            </div>
+
+            <!-- THREE PILLAR CARDS -->
+            <div class="pillars">
+                <div class="pillar">
+                    <div class="pillar-icon econ"><i class="fa-solid fa-landmark"></i></div>
+                    <h3>Economics</h3>
+                    <p>Economic reasoning · Macroeconomics · Econometrics · Behavioural Economics</p>
+                </div>
+                <div class="pillar">
+                    <div class="pillar-icon fin"><i class="fa-solid fa-coins"></i></div>
+                    <h3>Finance</h3>
+                    <p>Financial markets · Investment · Risk · Derivatives · FinTech</p>
+                </div>
+                <div class="pillar">
+                    <div class="pillar-icon data"><i class="fa-solid fa-microchip"></i></div>
+                    <h3>Data & Technology</h3>
+                    <p>Python · Machine Learning · Data Analysis · Emerging Technology</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════ ABOUT ═══════════ -->
+    <section id="about">
+        <div class="section-header">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">Who I am, what I've studied, and where I'm going.</p>
+        </div>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>I am an Economics and Finance student at RMIT University Vietnam. My Bachelor of Business studies have developed my understanding across economics, finance, quantitative analysis and emerging technologies.</p>
+                <p>Through courses such as <em>Big Data, Machine Learning and Society</em> and <em>Basic Econometrics</em>, I developed proficiency in Python, R and Excel. My work has progressively moved from foundational economic and financial concepts toward empirical analysis, machine learning and data-driven decision-making.</p>
+                <p>At this stage, I am still exploring which professional pathway best fits my strengths. Rather than presenting a fixed career identity, I see my current development as building a foundation across economics, finance and quantitative analysis while seeking opportunities to apply these skills to real-world problems.</p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-code"></i></div>
+                    <div class="stat-value">6</div>
+                    <div class="stat-label">Core Artefacts</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-chart-line"></i></div>
+                    <div class="stat-value">HD</div>
+                    <div class="stat-label">Big Data ML</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-certificate"></i></div>
+                    <div class="stat-value">2</div>
+                    <div class="stat-label">Certificates</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-tools"></i></div>
+                    <div class="stat-value">3</div>
+                    <div class="stat-label">Languages (Py, R, SQL)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════ MY DEVELOPMENT (5 stages) ═══════════ -->
+    <section id="development">
+        <div class="section-header">
+            <h2 class="section-title">From Foundations to Application</h2>
+            <p class="section-subtitle">A reflection on how my academic capabilities have progressed across my degree.</p>
+        </div>
+        <div class="dev-stages">
+            <div class="dev-card stage-econ">
+                <div class="dev-num">01</div>
+                <div class="dev-body">
+                    <h3>Foundation</h3>
+                    <div class="dev-sub">Business, Economics & Finance</div>
+                    <p>Early coursework established my understanding of economic systems, business environments and financial decision-making.</p>
+                    <div class="dev-evidence"><span>Macroeconomics</span><span>Business Decision Making</span><span>Business Environment</span></div>
+                </div>
+            </div>
+            <div class="dev-card stage-fin">
+                <div class="dev-num">02</div>
+                <div class="dev-body">
+                    <h3>Finance Specialisation</h3>
+                    <div class="dev-sub">Financial Markets & Investment</div>
+                    <p>My finance courses introduced financial markets, portfolio management, corporate finance, derivatives and financial institutions.</p>
+                    <div class="dev-evidence"><span>Equity Investment</span><span>Corporate Finance</span><span>Financial Markets</span><span>Money & Debt Markets</span></div>
+                </div>
+            </div>
+            <div class="dev-card stage-econ">
+                <div class="dev-num">03</div>
+                <div class="dev-body">
+                    <h3>Quantitative Analysis</h3>
+                    <div class="dev-sub">Econometrics & Evidence</div>
+                    <p>Econometrics changed the way I approached economic questions by requiring me to test relationships using data rather than relying only on theoretical explanations.</p>
+                    <div class="dev-evidence"><span>Governance, Institutions & Growth</span><span>OLS Regression</span><span>R Programming</span></div>
+                </div>
+            </div>
+            <div class="dev-card">
+                <div class="dev-num">04</div>
+                <div class="dev-body">
+                    <h3>Data & Technology</h3>
+                    <div class="dev-sub">Machine Learning & Digital Analysis</div>
+                    <p>My later coursework introduced Python, machine learning, data preprocessing, predictive modelling and responsible use of data.</p>
+                    <div class="dev-evidence"><span>Credit Risk</span><span>Real Estate Prediction</span><span>EVN Analysis</span><span>Python</span></div>
+                </div>
+            </div>
+            <div class="dev-card">
+                <div class="dev-num">05</div>
+                <div class="dev-body">
+                    <h3>Current Direction</h3>
+                    <div class="dev-sub">Finance × Economics × Technology</div>
+                    <p>I am now interested in roles where these areas overlap. However, I recognise that most of my evidence comes from university projects rather than professional experience. My next stage is therefore to gain practical exposure and determine which area best matches my strengths.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════ SELECTED WORK ═══════════ -->
+    <section id="work">
+        <div class="section-header">
+            <h2 class="section-title">Selected Academic Work</h2>
+            <p class="section-subtitle">Curated artefacts demonstrating quantitative and analytical development.</p>
+        </div>
+
+        <div class="filter-buttons">
+            <button class="filter-btn active" onclick="filterPortfolio('all')">All Work</button>
+            <button class="filter-btn" onclick="filterPortfolio('ml')">Data & ML</button>
+            <button class="filter-btn" onclick="filterPortfolio('econometrics')">Econometrics</button>
+            <button class="filter-btn" onclick="filterPortfolio('finance')">Finance</button>
+        </div>
+
+        <div class="portfolio-grid">
+
+            <!-- CARD 1: Credit Risk -->
+            <div class="portfolio-card ml">
+                <div class="card-banner"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span class="card-meta-course">ECON1612 Big Data ML</span><span>2025</span></div>
+                    <h3 class="card-title">Responsible Credit Risk Modelling for Digital Lending</h3>
+                    <p class="card-caption">This project explored how machine learning could support responsible credit-risk decisions in a hypothetical Vietnamese digital lending environment. It required consideration of model fairness, explainability and the potential consequences of automated lending decisions.</p>
+                    <div class="card-tags"><span class="tag">Python</span><span class="tag">Machine Learning</span><span class="tag">Credit Risk</span><span class="tag">Data Ethics</span></div>
+                    <div class="card-rubric-meta">
+                        <div class="rubric-row"><span class="rubric-label">Author:</span><span class="rubric-val">Vo Phan Vuong Hung</span></div>
+                        <div class="rubric-row"><span class="rubric-label">Date:</span><span class="rubric-val">Semester 3, 2025</span></div>
+                    </div>
+                    <div class="card-links">
+                        <a href="projects/big-data-machine-learning/assignment-3/report.docx" class="card-link"><i class="fa-solid fa-file-word"></i> Report</a>
+                        <a href="projects/big-data-machine-learning/assignment-3/code.ipynb" class="card-link"><i class="fa-solid fa-code"></i> Notebook</a>
+                        <button class="card-link card-link-detail" onclick="openModal('modal-credit')"><i class="fa-solid fa-expand"></i> Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 2: EVN -->
+            <div class="portfolio-card ml">
+                <div class="card-banner"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span class="card-meta-course">ECON1612 Big Data ML</span><span>2025</span></div>
+                    <h3 class="card-title">Big Data, Causality and Prediction in Vietnam's Energy Sector</h3>
+                    <p class="card-caption">Using Vietnam Electricity (EVN) as the context, this assignment required me to distinguish between causal and predictive questions and determine appropriate analytical approaches for each.</p>
+                    <div class="card-tags"><span class="tag">Policy Analysis</span><span class="tag">Causality</span><span class="tag">Electricity Sector</span><span class="tag">Data Strategy</span></div>
+                    <div class="card-rubric-meta">
+                        <div class="rubric-row"><span class="rubric-label">Author:</span><span class="rubric-val">Vo Phan Vuong Hung</span></div>
+                        <div class="rubric-row"><span class="rubric-label">Date:</span><span class="rubric-val">Semester 3, 2025</span></div>
+                    </div>
+                    <div class="card-links">
+                        <a href="projects/big-data-machine-learning/assignment-1/report.docx" class="card-link"><i class="fa-solid fa-file-word"></i> Report</a>
+                        <button class="card-link card-link-detail" onclick="openModal('modal-evn')"><i class="fa-solid fa-expand"></i> Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 3: Real Estate -->
+            <div class="portfolio-card ml">
+                <div class="card-banner"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span class="card-meta-course">ECON1612 Big Data ML</span><span>2025</span></div>
+                    <h3 class="card-title">Vietnamese Real Estate Price Prediction</h3>
+                    <p class="card-caption">Working as part of a four-person group, this project investigated real-estate price prediction using a Vietnamese property dataset. My primary contribution was to the analytical and coding component.</p>
+                    <div class="card-tags"><span class="tag">Python</span><span class="tag">Regression ML</span><span class="tag">Teamwork</span><span class="tag">Data Cleaning</span></div>
+                    <div class="card-rubric-meta">
+                        <div class="rubric-row"><span class="rubric-label">Author:</span><span class="rubric-val">Vo Phan Vuong Hung (Group)</span></div>
+                        <div class="rubric-row"><span class="rubric-label">Date:</span><span class="rubric-val">Semester 3, 2025</span></div>
+                    </div>
+                    <div class="card-links">
+                        <a href="projects/big-data-machine-learning/assignment-2/code.ipynb" class="card-link"><i class="fa-solid fa-code"></i> Code</a>
+                        <a href="projects/big-data-machine-learning/assignment-2/slides.pdf" class="card-link"><i class="fa-solid fa-file-pdf"></i> Slides</a>
+                        <button class="card-link card-link-detail" onclick="openModal('modal-realestate')"><i class="fa-solid fa-expand"></i> Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 4: Econometrics -->
+            <div class="portfolio-card econometrics">
+                <div class="card-banner"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span class="card-meta-course">ECON1313 Econometrics</span><span>2024</span></div>
+                    <h3 class="card-title">Governance, Institutions, and GDP per Capita</h3>
+                    <p class="card-caption">Applied econometric methods to investigate the relationship between governance, foreign direct investment, natural-resource rents and GDP per capita across countries.</p>
+                    <div class="card-tags"><span class="tag">R Programming</span><span class="tag">OLS Regression</span><span class="tag">Hypothesis Testing</span><span class="tag">Macroeconomics</span></div>
+                    <div class="card-rubric-meta">
+                        <div class="rubric-row"><span class="rubric-label">Author:</span><span class="rubric-val">Vo Phan Vuong Hung</span></div>
+                        <div class="rubric-row"><span class="rubric-label">Date:</span><span class="rubric-val">Semester 3, 2024</span></div>
+                    </div>
+                    <div class="card-links">
+                        <a href="projects/econometrics/governance-gdp/report.docx" class="card-link"><i class="fa-solid fa-file-word"></i> Report</a>
+                        <a href="projects/econometrics/governance-gdp/code.R" class="card-link"><i class="fa-solid fa-code"></i> R Code</a>
+                        <a href="projects/econometrics/governance-gdp/data.xlsx" class="card-link"><i class="fa-solid fa-table"></i> Data</a>
+                        <button class="card-link card-link-detail" onclick="openModal('modal-econ')"><i class="fa-solid fa-expand"></i> Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 5: Portfolio Management -->
+            <div class="portfolio-card finance">
+                <div class="card-banner"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span class="card-meta-course">BAFI3194 Portfolio Mgmt</span><span>2024</span></div>
+                    <h3 class="card-title">Equity Investment & Asset Allocation Analysis</h3>
+                    <p class="card-caption">This coursework introduced me to portfolio construction, investment decision-making and the relationship between risk and return. Although an academic exercise, it established an important foundation for my continuing interest in financial markets.</p>
+                    <div class="card-tags"><span class="tag">Excel</span><span class="tag">Asset Allocation</span><span class="tag">Efficient Frontier</span><span class="tag">MPT</span></div>
+                    <div class="card-rubric-meta">
+                        <div class="rubric-row"><span class="rubric-label">Author:</span><span class="rubric-val">Vo Phan Vuong Hung</span></div>
+                        <div class="rubric-row"><span class="rubric-label">Date:</span><span class="rubric-val">Semester 1, 2024</span></div>
+                    </div>
+                    <div class="card-links">
+                        <a href="projects/finance/portfolio-management/report.docx" class="card-link"><i class="fa-solid fa-file-word"></i> Report</a>
+                        <a href="projects/finance/portfolio-management/analysis.xlsx" class="card-link"><i class="fa-solid fa-file-excel"></i> Excel</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 6: Macroeconomics -->
+            <div class="portfolio-card finance">
+                <div class="card-banner"></div>
+                <div class="card-body">
+                    <div class="card-meta"><span class="card-meta-course">ECON1266 Macroeconomics</span><span>2024</span></div>
+                    <h3 class="card-title">Macroeconomic Policy & Decision-Making</h3>
+                    <p class="card-caption">This early coursework established part of my foundation in macroeconomic analysis and decision-making. It provides an earlier point of comparison for my later work in econometrics and data-driven analysis.</p>
+                    <div class="card-tags"><span class="tag">Policy Analysis</span><span class="tag">GDP & Inflation</span><span class="tag">Fiscal Policy</span><span class="tag">Foundation</span></div>
+                    <div class="card-rubric-meta">
+                        <div class="rubric-row"><span class="rubric-label">Author:</span><span class="rubric-val">Vo Phan Vuong Hung</span></div>
+                        <div class="rubric-row"><span class="rubric-label">Date:</span><span class="rubric-val">Semester 1, 2024</span></div>
+                    </div>
+                    <div class="card-links">
+                        <a href="projects/other-coursework/macroeconomics_report.docx" class="card-link"><i class="fa-solid fa-file-word"></i> Report</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ═══════════ PROJECT DETAIL MODALS ═══════════ -->
+
+    <!-- MODAL: Credit Risk -->
+    <div class="modal-overlay" id="modal-credit">
+        <div class="modal">
+            <button class="modal-close" onclick="closeModal('modal-credit')"><i class="fa-solid fa-xmark"></i></button>
+            <span class="modal-badge ml-badge">Data & Machine Learning</span>
+            <h2>Responsible Credit Risk Modelling for Digital Micro-Lending</h2>
+            <p class="modal-meta">Vo Phan Vuong Hung &nbsp;|&nbsp; ECON1612 Big Data, Machine Learning and Society &nbsp;|&nbsp; 2025</p>
+            <div class="modal-section"><h4><i class="fa-solid fa-bullseye"></i> Context</h4><p>This project examined how machine learning could be used to predict default risk in a hypothetical Vietnamese digital lending environment. The scenario required considering the real-world consequences of automated credit decisions for both lenders and borrowers.</p></div>
+            <div class="modal-section"><h4><i class="fa-solid fa-gears"></i> My Approach</h4><p>I cleaned and preprocessed the dataset, explored default patterns, developed classification models, evaluated model performance using multiple metrics, analysed feature importance, and investigated fairness across customer groups.</p></div>
+            <div class="modal-section"><h4><i class="fa-solid fa-lightbulb"></i> What I Learned</h4><p>Working with this dataset changed my understanding of what it means to apply machine learning to financial problems. Model performance alone was not sufficient — the assignment required me to consider false negatives, fairness across groups and the consequences of automated lending decisions. This made me recognise that quantitative tools need to be evaluated not only for predictive accuracy but also for their suitability and consequences within the decision context.</p></div>
+            <div class="modal-section"><h4><i class="fa-solid fa-award"></i> Capabilities Demonstrated</h4><p><strong>#AoL4 Digitally Adept:</strong> Python, Jupyter, ML models, data preprocessing.<br><strong>#AoL5 Expert:</strong> Applied disciplinary knowledge (finance + risk) to a real decision problem.</p></div>
+            <div class="modal-section"><h4><i class="fa-solid fa-compass"></i> Career Relevance</h4><p>This is my strongest artefact connecting financial decision-making with quantitative and technological methods. It demonstrates capability relevant to credit analysis, risk analytics, and responsible lending — all of which sit at the intersection of finance and technology.</p></div>
+            <div class="modal-evidence">
+                <a href="projects/big-data-machine-learning/assignment-3/report.docx"><i class="fa-solid fa-file-word"></i> Report</a>
+                <a href="projects/big-data-machine-learning/assignment-3/code.ipynb"><i class="fa-solid fa-code"></i> Python Notebook</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL: EVN -->
+    <div class="modal-overlay" id="modal-evn">
+        <div class="modal">
+            <button class="modal-close" onclick="closeModal('modal-evn')"><i class="fa-solid fa-xmark"></i></button>
+            <span class="modal-badge ml-badge">Data & Machine Learning</span>
+            <h2>Big Data, Causality and Prediction in Vietnam's Energy Sector</h2>
+            <p class="modal-meta">Vo Phan Vuong Hung &nbsp;|&nbsp; ECON1612 Big Data, Machine Learning and Society &nbsp;|&nbsp; 2025</p>
+            <div class="modal-section"><h4><i class="fa-solid fa-bullseye"></i> Context</h4><p>Using Vietnam Electricity (EVN) as the business context, this assignment examined how to distinguish between causal policy questions and predictive operational questions, and determine which analytical approach suits each.</p></div>
+            <div class="modal-section"><h4><i class="fa-solid fa-gears"></i> My Approach</h4><p>I formulated causal questions, predictive questions, evaluated econometric vs. ML approaches, identified potential data sources, assessed feasibility, and considered ethical implications of large-scale data use in a state-owned energy context.</p></div>
+            <div class="modal-section"><h4><i class="fa-solid fa-lightbulb"></i> What I Learned</h4><p>This work changed my understanding of analytical problem-solving by showing me that the method should follow the decision problem rather than the other way around. Earlier in my studies, my understanding of data analysis was largely focused on selecting methods and producing results. Through this project, I began to recognise that the quality of an analysis also depends on defining the decision problem correctly.</p></div>
+            <div class="modal-section"><h4><i class="fa-solid fa-compass"></i> Career Relevance</h4><p>Demonstrates analytical thinking relevant to economics consulting, policy advisory, and data strategy roles where selecting the right analytical framework matters more than simply running models.</p></div>
+            <div class="modal-evidence">
+                <a href="projects/big-data-machine-learning/assignment-1/report.docx"><i class="fa-solid fa-file-word"></i> Report</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL: Real Estate -->
+    <div class="modal-overlay" id="modal-realestate">
+        <div class="modal">
+            <button class="modal-close" onclick="closeModal('modal-realestate')"><i class="fa-solid fa-xmark"></i></button>
+            <span class="modal-badge ml-badge">Data & Machine Learning</span>
+            <h2>Vietnamese Real Estate Price Prediction</h2>
+            <p class="modal-meta">Vo Phan Vuong Hung and group &nbsp;|&nbsp; ECON1612 Big Data, Machine Learning and Society &nbsp;|&nbsp; 2025</p>
+            <div class="modal-section"><h4><i class="fa-solid fa-bullseye"></i> Context</h4><p>A group project (four students) that investigated real-estate price prediction using a Vietnamese property dataset. The project involved data cleaning, exploratory analysis, model development, hyperparameter tuning and evaluation of prediction results.</p></div>
+            <div class="modal-section"><h4><i class="fa-solid fa-gears"></i> My Contribution</h4><p>My primary contribution was to the analytical and coding component, including working with the reproducible Python workflow. I was responsible for data preprocessing, feature engineering, and model evaluation using decision trees and random forests.</p></div>
+            <div class="modal-section"><h4><i class="fa-solid fa-lightbulb"></i> What I Learned</h4><p>The project developed my ability to work collaboratively while applying machine-learning techniques to a practical economic dataset. It also taught me about the importance of reproducible workflows and clear documentation when working in a team setting.</p></div>
+            <div class="modal-evidence">
+                <a href="projects/big-data-machine-learning/assignment-2/code.ipynb"><i class="fa-solid fa-code"></i> Notebook</a>
+                <a href="projects/big-data-machine-learning/assignment-2/slides.pdf"><i class="fa-solid fa-file-pdf"></i> Slides</a>
+                <a href="projects/big-data-machine-learning/assignment-2/README.md"><i class="fa-solid fa-book"></i> README</a>
+                <a href="projects/big-data-machine-learning/assignment-2/data.csv"><i class="fa-solid fa-table"></i> Dataset</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL: Econometrics -->
+    <div class="modal-overlay" id="modal-econ">
+        <div class="modal">
+            <button class="modal-close" onclick="closeModal('modal-econ')"><i class="fa-solid fa-xmark"></i></button>
+            <span class="modal-badge econ-badge">Econometrics</span>
+            <h2>Governance, Institutions and Economic Growth</h2>
+            <p class="modal-meta">Vo Phan Vuong Hung &nbsp;|&nbsp; ECON1313 Basic Econometrics &nbsp;|&nbsp; 2024</p>
+            <div class="modal-section"><h4><i class="fa-solid fa-bullseye"></i> Context</h4><p>This project examined the relationship between governance quality, foreign direct investment, natural-resource rents and GDP per capita using macroeconomic data and econometric modelling.</p></div>
+            <div class="modal-section"><h4><i class="fa-solid fa-gears"></i> My Approach</h4><p>I conducted a literature review, prepared macroeconomic data, performed descriptive statistics and correlations, developed OLS regression models with interaction terms, conducted hypothesis testing, and discussed policy implications and model limitations.</p></div>
+            <div class="modal-section"><h4><i class="fa-solid fa-lightbulb"></i> What I Learned</h4><p>This project strengthened my ability to translate an economic question into an empirical model and critically evaluate the assumptions and limitations behind quantitative results. It demonstrated the progression from describing economic relationships to statistically testing them.</p></div>
+            <div class="modal-section"><h4><i class="fa-solid fa-compass"></i> Career Relevance</h4><p>Demonstrates the economics side of my profile — the ability to formulate research questions, work with macroeconomic data, and apply econometric modelling to policy-relevant problems.</p></div>
+            <div class="modal-evidence">
+                <a href="projects/econometrics/governance-gdp/report.docx"><i class="fa-solid fa-file-word"></i> Report</a>
+                <a href="projects/econometrics/governance-gdp/code.R"><i class="fa-solid fa-code"></i> R Code</a>
+                <a href="projects/econometrics/governance-gdp/data.xlsx"><i class="fa-solid fa-table"></i> Dataset</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════ CAPABILITIES ═══════════ -->
+    <section id="capabilities">
+        <div class="section-header">
+            <h2 class="section-title">RMIT Graduate Capabilities</h2>
+            <p class="section-subtitle">Mapping my academic evidence to the BBus Graduate Capability Framework.</p>
+        </div>
+        <div class="capabilities-grid">
+            <div class="capability-card">
+                <div class="cap-header">
+                    <div class="cap-icon"><i class="fa-solid fa-microchip"></i></div>
+                    <div><span class="cap-code">RMIT #AoL4</span><h3 class="cap-title">Digitally Adept</h3></div>
+                </div>
+                <p class="cap-text">Create and utilise a blend of digital and human skills, tools and emerging technologies to learn, solve problems, innovate, communicate and collaborate.</p>
+                <ul class="cap-evidence-list">
+                    <li class="cap-evidence-item"><i class="fa-solid fa-circle-check"></i><span>Python Jupyter notebooks for credit risk classification and data preprocessing.</span></li>
+                    <li class="cap-evidence-item"><i class="fa-solid fa-circle-check"></i><span>R regression models for econometric testing of macroeconomic growth determinants.</span></li>
+                    <li class="cap-evidence-item"><i class="fa-solid fa-circle-check"></i><span>Excel-based mean-variance asset allocation and portfolio frontier analysis.</span></li>
+                </ul>
+            </div>
+            <div class="capability-card expert">
+                <div class="cap-header">
+                    <div class="cap-icon"><i class="fa-solid fa-brain"></i></div>
+                    <div><span class="cap-code">RMIT #AoL5</span><h3 class="cap-title">Expert Learner</h3></div>
+                </div>
+                <p class="cap-text">Establish and continue to grow and apply disciplinary and/or interdisciplinary knowledge and expertise in real life contexts as lifelong learners.</p>
+                <ul class="cap-evidence-list">
+                    <li class="cap-evidence-item"><i class="fa-solid fa-circle-check"></i><span>Connecting ML algorithms with responsible lending policies to analyse digital default rates.</span></li>
+                    <li class="cap-evidence-item"><i class="fa-solid fa-circle-check"></i><span>Distinguishing causal from predictive dimensions in energy infrastructure decisions.</span></li>
+                    <li class="cap-evidence-item"><i class="fa-solid fa-circle-check"></i><span>Integrating Modern Portfolio Theory to construct practical portfolio frontiers.</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════ CERTIFICATES ═══════════ -->
+    <section id="certificates">
+        <div class="section-header">
+            <h2 class="section-title">Professional Development</h2>
+            <p class="section-subtitle">Extracurricular engagements and verified certifications.</p>
+        </div>
+        <div class="certificates-grid">
+            <div class="certificate-card">
+                <i class="fa-solid fa-circle-nodes cert-icon"></i>
+                <div>
+                    <h3 class="cert-title">RMIT Big Industry Challenge</h3>
+                    <p class="cert-org">RMIT University Vietnam | 2024</p>
+                    <p class="cert-desc">Participation in an industry-oriented problem-solving environment, collaborating across disciplines to develop professional solutions.</p>
+                    <a href="certificates/big-industry-challenge.pdf" class="cert-link"><i class="fa-solid fa-file-pdf"></i> View Certificate</a>
+                </div>
+            </div>
+            <div class="certificate-card">
+                <i class="fa-solid fa-earth-asia cert-icon"></i>
+                <div>
+                    <h3 class="cert-title">Innovation for Global Cities</h3>
+                    <p class="cert-org">RMIT University | 2024</p>
+                    <p class="cert-desc">Explored innovative policy design and data-driven approaches for urban development, sustainability and smart cities.</p>
+                    <a href="certificates/innovation-global-cities.pdf" class="cert-link"><i class="fa-solid fa-file-pdf"></i> View Certificate</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════ FUTURE DEVELOPMENT (4 cards) ═══════════ -->
+    <section id="future">
+        <div class="section-header">
+            <h2 class="section-title">Where I Need to Grow</h2>
+            <p class="section-subtitle">Evaluating gaps and designing my lifelong learning path.</p>
+        </div>
+        <div class="future-grid">
+            <div class="future-card">
+                <div class="future-card-num">01</div>
+                <h3>Real-World Experience</h3>
+                <div class="gap-label">Current gap</div>
+                <p>Most of my evidence comes from academic coursework. I need to seek internships, part-time roles, or entry-level opportunities in finance, analysis, risk or business data to test my capabilities in ambiguous, real-world problems.</p>
+            </div>
+            <div class="future-card">
+                <div class="future-card-num">02</div>
+                <h3>Quantitative Consistency</h3>
+                <div class="gap-label">Current gap</div>
+                <p>My experience across quantitative subjects has shown me that analytical capability requires consistent practice rather than relying on short periods of intensive study. I plan to continue developing Python, R, SQL, statistics and econometrics.</p>
+            </div>
+            <div class="future-card">
+                <div class="future-card-num">03</div>
+                <h3>Financial Application</h3>
+                <div class="gap-label">Current gap</div>
+                <p>I have finance knowledge but limited professional exposure. My next step is to develop practical analysis through company financial modelling, equity research, portfolio analysis and risk assessment beyond coursework exercises.</p>
+            </div>
+            <div class="future-card">
+                <div class="future-card-num">04</div>
+                <h3>Career Direction</h3>
+                <div class="gap-label">Current gap</div>
+                <p>I have not yet committed to a single professional pathway within finance. Rather than treating this uncertainty as a weakness, I see it as an area requiring exploration: Finance → Risk → Investment → Analytics → FinTech.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════ FOOTER ═══════════ -->
+    <footer>
+        <div class="footer-content">
+            <h3 class="footer-name">Vo Phan Vuong Hung</h3>
+            <p class="footer-tagline">Economics & Finance | Quantitative Analysis | Data & Technology</p>
+            <div style="margin-bottom:1.5rem">
+                <a href="cv/CV.docx" class="btn btn-secondary btn-sm"><i class="fa-solid fa-file-lines"></i> Download CV</a>
+            </div>
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/hung-vo-phan-vuong-60274a29b" target="_blank" class="social-link" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/hungvph" target="_blank" class="social-link" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vpvh2005@gmail.com" target="_blank" class="social-link" title="Email me (vpvh2005@gmail.com)" onclick="handleEmailClick(event)"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.5rem;"><i class="fa-regular fa-envelope"></i> vpvh2005@gmail.com</p>
+            <p class="footer-copy">&copy; 2026 Vo Phan Vuong Hung. Built for RMIT Business Graduate Folio assessment.</p>
+        </div>
+    </footer>
+
+    <!-- ═══════════ SCRIPT ═══════════ -->
+    <script>
+        /* THEME TOGGLE */
+        const themeBtn = document.getElementById('themeToggle');
+        const themeIcon = themeBtn.querySelector('i');
+        const saved = localStorage.getItem('theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', saved);
+        setIcon(saved);
+        themeBtn.addEventListener('click', () => {
+            const cur = document.documentElement.getAttribute('data-theme');
+            const next = cur === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            localStorage.setItem('theme', next);
+            setIcon(next);
+        });
+        function setIcon(t){ themeIcon.className = t === 'dark' ? 'fa-solid fa-sun' : 'fa-solid fa-moon'; }
+
+        /* MOBILE MENU */
+        const menuBtn = document.getElementById('menuToggle');
+        const navList = document.getElementById('navLinks');
+        menuBtn.addEventListener('click', () => {
+            navList.classList.toggle('active');
+            menuBtn.querySelector('i').className = navList.classList.contains('active') ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
+        });
+        navList.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+            navList.classList.remove('active');
+            menuBtn.querySelector('i').className = 'fa-solid fa-bars';
+        }));
+
+        /* PORTFOLIO FILTER */
+        function filterPortfolio(cat) {
+            document.querySelectorAll('.portfolio-card').forEach(c => c.style.display = (cat === 'all' || c.classList.contains(cat)) ? 'flex' : 'none');
+            document.querySelectorAll('.filter-btn').forEach(b => {
+                b.classList.toggle('active', (cat === 'all' && b.textContent.trim() === 'All Work') || b.textContent.toLowerCase().includes(cat));
+            });
+        }
+
+        /* MODALS */
+        function openModal(id) { document.getElementById(id).classList.add('active'); document.body.style.overflow = 'hidden'; }
+        function closeModal(id) { document.getElementById(id).classList.remove('active'); document.body.style.overflow = ''; }
+        document.querySelectorAll('.modal-overlay').forEach(o => o.addEventListener('click', e => { if (e.target === o) { o.classList.remove('active'); document.body.style.overflow = ''; } }));
+        document.addEventListener('keydown', e => { if (e.key === 'Escape') document.querySelectorAll('.modal-overlay.active').forEach(o => { o.classList.remove('active'); document.body.style.overflow = ''; }); });
+
+        /* EMAIL HANDLER */
+        function handleEmailClick(e) {
+            const email = 'vpvh2005@gmail.com';
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(email);
+            }
+            // Fallback: if user doesn't use web Gmail, open mailto as well
+            setTimeout(() => {
+                window.location.href = 'mailto:' + email;
+            }, 300);
+        }
+    </script>
+</body>
+</html>

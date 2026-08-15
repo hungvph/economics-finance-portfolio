@@ -1,0 +1,518 @@
+﻿Price,Area,District,City,Type,Bedrooms,Bathrooms,direction,legal,Frontage,furniture
+0.58,365.9,Phu Giao,Binh Duong,Land lot,0,0,West,Red Book,32,
+2.79,78.9,Thuan An,Binh Duong,Apartment,2,2,East,Contract,0,Partially
+7.96,85,Binh Thanh,Ho Chi Minh,Apartment,2,2,,Red Book,0,Partially
+7.96,85,Binh Thanh,Ho Chi Minh,Apartment,2,2,,Red Book,0,Partially
+10.65,86,Binh Thanh,Ho Chi Minh,Apartment,2,2,,Red Book,0,Full
+11.5,87,Binh Thanh,Ho Chi Minh,Apartment,2,2,,Red Book,0,Partially
+10.9,92,Binh Thanh,Ho Chi Minh,Apartment,2,2,,Red Book,0,Full
+12.15,109,Binh Thanh,Ho Chi Minh,Apartment,3,2,,Red Book,0,Full
+13.2,126,Binh Thanh,Ho Chi Minh,Apartment,3,2,,Red Book,0,Full
+11.9,118,Binh Thanh,Ho Chi Minh,Apartment,3,2,,Red Book,0,Partially
+15,120,Binh Thanh,Ho Chi Minh,Apartment,3,2,,Red Book,0,Partially
+31,188,Binh Thanh,Ho Chi Minh,Apartment,4,2,,Red Book,0,Full
+24,150,Binh Thanh,Ho Chi Minh,Apartment,4,2,,Red Book,0,Full
+2.7,79,Thuan An,Binh Duong,Apartment,2,2,East,Contract,0,Full
+2.15,54.7,Thuan An,Binh Duong,Apartment,1,2,,Contract,0,Full
+2.91,71.95,Thuan An,Binh Duong,Apartment,2,2,,Contract,0,Full
+3.475,79,Thuan An,Binh Duong,Apartment,2,2,,Contract,0,Full
+4.3,97.25,Thuan An,Binh Duong,Apartment,3,2,,Contract,0,Full
+2.4,65,Di An,Binh Duong,Apartment,2,2,,Contract,0,Partially
+2.29,65.56,Di An,Binh Duong,Apartment,2,2,,Contract,0,Full
+2.7,67,Thuan An,Binh Duong,Apartment,2,2,,Contract,0,
+195,29.23,Bao Loc,Lam Dong,Land lot,0,0,,Red Book,55,
+29.28,160,Van Giang,Hung Yen,Villa,4,4,East,Contract,10,
+2.6,33,Gia Lam,Ha Noi,Apartment,1,1,East,Red Book,0,Full
+3.3,63,District 9,Ho Chi Minh,Apartment,1,1,,Red Book,0,
+4.2,71.5,District 9,Ho Chi Minh,Apartment,2,2,,Red Book,0,
+5,91,District 9,Ho Chi Minh,Apartment,3,2,,Red Book,0,
+7.5,160,District 9,Ho Chi Minh,Townhouse,0,0,,Red Book,0,
+2.7,99,Thuy Nguyen,Hai Phong,Townhouse,4,0,East,Red Book,6,none
+8,81,District 2,Ho Chi Minh,Apartment,1,1,,Contract,0,
+11.3,74.2,District 2,Ho Chi Minh,Apartment,2,2,,Red Book,0,Partially
+11,76,District 2,Ho Chi Minh,Apartment,0,0,West,Contract,0,Partially
+5.1,85,Viet Yen,Bac Giang,Land lot,0,0,East,Red Book,5,
+26,122,Phu Nhuan,Ho Chi Minh,Townhouse,0,0,,Red Book,6.1,
+2.4,63,District 9,Ho Chi Minh,Apartment,2,1,,Red Book,0,Full
+3.7,73,District 9,Ho Chi Minh,Apartment,2,2,,Red Book,0,Full
+4.6,53,District 7,Ho Chi Minh,Apartment,2,1,,Red Book,0,Partially
+4.2,44,District 7,Ho Chi Minh,Apartment,1,1,,Red Book,0,Partially
+5.2,60,District 7,Ho Chi Minh,Apartment,2,2,,Red Book,0,Partially
+6,66,District 7,Ho Chi Minh,Apartment,2,2,,Red Book,0,Partially
+6.3,70,District 7,Ho Chi Minh,Apartment,2,2,,Red Book,0,Partially
+6.4,72,District 7,Ho Chi Minh,Apartment,2,2,,Red Book,0,Partially
+7.3,77,District 7,Ho Chi Minh,Apartment,2,2,,Red Book,0,Partially
+7.215,80,District 7,Ho Chi Minh,Apartment,3,2,,Red Book,0,Partially
+8.1,87,District 7,Ho Chi Minh,Apartment,3,2,,Red Book,0,Partially
+8.5,95,District 7,Ho Chi Minh,Apartment,3,2,,Red Book,0,Partially
+3.65,59,Gia Lam,Ha Noi,Apartment,2,1,,Red Book,0,
+17,120,Van Giang,Hung Yen,Villa,4,4,East,Contract,0,
+1.975,45,Thuan An,Binh Duong,Apartment,1,1,East,Red Book,0,Full
+6.4,72.9,Thanh Xuan,Ha Noi,Apartment,2,2,East,Red Book,0,Full
+23.2,90,Tan Binh,Ho Chi Minh,Townhouse,0,0,,Red Book,4.3,
+11.3,74.2,District 2,Ho Chi Minh,Apartment,2,2,,Red Book,0,Partially
+11,76,District 2,Ho Chi Minh,Apartment,1,0,West,Contract,0,Partially
+13.6,76,Tan Binh,Ho Chi Minh,Townhouse,12,0,West,Red Book,11.5,Partially
+4,100,Quoc Oai,Ha Noi,Land lot,0,0,East,Red Book,8,
+16.5,90,Tan Binh,Ho Chi Minh,Townhouse,16,16,,Red Book,6,Full
+13.2,400,Quoc Oai,Ha Noi,Land lot,0,0,East,Red Book,14,
+31.8,98,Ba Dinh,Ha Noi,Apartment,26,0,,Red Book,0,Full
+5.7,26.2,Dong Da,Ha Noi,Townhouse,3,3,North,Red Book,4,Partially
+8.5,78,District 2,Ho Chi Minh,Apartment,2,0,North,Red Book,0,Full
+22.5,118.4,Tan Binh,Ho Chi Minh,Townhouse,0,0,,Red Book,4.05,
+4.8,72.7,Dong Anh,Ha Noi,Apartment,2,2,,Red Book,0,Full
+0.99,177,Da Huoai,Lam Dong,Townhouse,1,1,West,Red Book,10,
+3.1,65.2,District 9,Ho Chi Minh,Apartment,2,1,East,Red Book,0,Full
+7.1,52,Thu Duc,Ho Chi Minh,Townhouse,4,4,,Red Book,4,
+9.9,85,Binh Tan,Ho Chi Minh,Townhouse,4,5,East,Red Book,4,
+9.9,85,Binh Tan,Ho Chi Minh,Townhouse,4,5,East,Red Book,4,
+10.8,204.4,Binh Tan,Ho Chi Minh,Townhouse,2,2,East,Red Book,12,Full
+2.1,107.4,Son Tay,Ha Noi,Land lot,0,0,,Red Book,5,
+5.2,47,Binh Thanh,Ho Chi Minh,Townhouse,2,2,,Red Book,3.5,Partially
+4.88,32.8,District 7,Ho Chi Minh,Townhouse,2,3,,Red Book,4.2,Full
+1.7,50,Son Tay,Ha Noi,Land lot,0,0,,Red Book,5.33,
+0.55,128.2,Chau Duc,Ba Ria Vung Tau,Land lot,0,0,,Red Book,5.3,
+15.5,492,Nhon Trach,Dong Nai,Townhouse,4,2,East,Red Book,9.5,none
+14.76,86.5,Go Vap,Ho Chi Minh,Apartment,11,11,West,Red Book,6,Full
+10.4,58,Binh Thanh,Ho Chi Minh,Townhouse,9,10,East,Red Book,0,Full
+39.6,157.9,District 9,Ho Chi Minh,Villa,4,5,,Red Book,8,Full
+1.65,50,Son Tay,Ha Noi,Land lot,0,0,East,Red Book,5.33,
+4.5,208,Cu Chi,Ho Chi Minh,Townhouse,2,1,,Red Book,8,Partially
+22,90,Long Bien,Ha Noi,Land lot,0,0,,Red Book,6.9,
+2,100,Quoc Oai,Ha Noi,Land lot,0,0,,Red Book,5,
+50,1213,Hoc Mon,Ho Chi Minh,Land lot,0,0,,Red Book,19,
+4.68,56,District 12,Ho Chi Minh,Townhouse,3,3,North,Red Book,4,Full
+19,112,Long Bien,Ha Noi,Land lot,0,0,East,Red Book,4,
+8.62,2872,Lam Ha,Lam Dong,Land lot,0,0,,Red Book,45,
+19.9,75.4,Long Bien,Ha Noi,Land lot,0,0,,Red Book,5,
+3.1,118,Son Tay,Ha Noi,Land lot,0,0,,Red Book,5,
+4.8,100,Quoc Oai,Ha Noi,Land lot,0,0,South,Red Book,5.5,
+5.6,75,Thuy Nguyen,Hai Phong,Land lot,0,0,,Red Book,5,
+5.6,75,Thuy Nguyen,Hai Phong,Land lot,0,0,,Red Book,5,
+7.3,100,Ngu Hanh Son,Da Nang,Land lot,0,0,North,Red Book,0,
+6.7,60,Thu Duc,Ho Chi Minh,Townhouse,4,4,East,Red Book,4,Full
+5.2,100.1,Ngu Hanh Son,Da Nang,Land lot,0,0,East,Red Book,0,
+0.39,62,Go Dau,Tay Ninh,Land lot,0,0,,Red Book,5,
+5.45,28.5,Binh Thanh,Ho Chi Minh,Townhouse,2,2,,Red Book,0,Full
+5,102.5,Ngu Hanh Son,Da Nang,Land lot,0,0,West,Red Book,5,
+1.995,78.4,Cu Chi,Ho Chi Minh,Land lot,0,0,,Red Book,5,none
+15.8,85,Binh Thanh,Ho Chi Minh,Townhouse,2,2,,Red Book,4,
+0.79,136.4,Go Dau,Tay Ninh,Land lot,0,0,East,Red Book,0,
+27,42,District 3,Ho Chi Minh,Townhouse,0,0,,Red Book,0,
+94.76,824,Hai An,Hai Phong,Land lot,0,0,East,Red Book,23.2,
+6.8,50.5,Thu Duc,Ho Chi Minh,Townhouse,2,3,,Red Book,0,
+0.76,229,Go Dau,Tay Ninh,Land lot,0,0,,Red Book,10,
+2.6,192.9,Van Ninh,Khanh Hoa,Land lot,0,0,West,Red Book,19,
+10,87,Vung Tau,Ba Ria Vung Tau,Townhouse,4,5,East,Contract,0,Full
+6.07,71.4,Gia Lam,Ha Noi,Land lot,0,0,,Red Book,4.3,
+9.55,38.6,Bac Tu Liem,Ha Noi,Townhouse,3,0,,Red Book,4.2,
+6.7,78,Vung Tau,Ba Ria Vung Tau,Townhouse,4,5,West,Contract,0,Full
+13.5,115,Thu Duc,Ho Chi Minh,Townhouse,4,5,East,Red Book,5,none
+1.78,132,Ben Cat,Binh Duong,Land lot,0,0,West,Red Book,6,
+50,4537.8,Da Lat,Lam Dong,Land lot,0,0,,Red Book,150,
+5,87.8,Thu Duc,Ho Chi Minh,Townhouse,2,2,West,Red Book,16,Partially
+16.7,100.6,Tan Binh,Ho Chi Minh,Townhouse,8,9,,Red Book,0,Partially
+1.9,204,Gia Binh,Bac Ninh,Land lot,0,0,,Red Book,7,
+7.13,137.13,Yen My,Hung Yen,Land lot,0,0,East,Red Book,6,
+2.95,120,Thu Dau Mot,Binh Duong,Townhouse,3,4,,Red Book,7,Partially
+1.5,1000,Cao Phong,Hoa Binh,Land lot,0,0,East,Red Book,15,none
+4.05,69.2,District 9,Ho Chi Minh,Apartment,2,2,East,Contract,0,Full
+3.7,62.4,District 9,Ho Chi Minh,Land lot,0,0,,Red Book,4,
+4,181,Quoc Oai,Ha Noi,Land lot,0,0,West,Red Book,11,
+0.585,173.7,Thong Nhat,Dong Nai,Land lot,0,0,South,Red Book,5.5,
+18.2,65,District 10,Ho Chi Minh,Townhouse,6,6,East,Red Book,3.7,Partially
+6.9,97,Nha Be,Ho Chi Minh,Apartment,2,2,South,Red Book,0,Full
+18.4,129.7,Hoang Mai,Ha Noi,Apartment,4,2,South,Red Book,0,Full
+6.7,78,Vung Tau,Ba Ria Vung Tau,Townhouse,4,5,West,Contract,0,Full
+13.5,115,Thu Duc,Ho Chi Minh,Townhouse,4,5,East,Red Book,5,none
+1.78,132,Ben Cat,Binh Duong,Land lot,0,0,West,Red Book,6,
+50,4537.8,Da Lat,Lam Dong,Land lot,0,0,,Red Book,150,
+5,87.8,Thu Duc,Ho Chi Minh,Townhouse,2,2,West,Red Book,16,Partially
+16.7,100.6,Tan Binh,Ho Chi Minh,Townhouse,8,9,,Red Book,0,Partially
+1.9,204,Gia Binh,Bac Ninh,Land lot,0,0,,Red Book,7,
+72,184,Go Vap,Ho Chi Minh,Townhouse,5,10,East,Red Book,8,
+0.68,108.8,Thanh Thuy,Phu Tho,Land lot,0,0,East,Red Book,5.46,
+5.66,5658,Kim Boi,Hoa Binh,Land lot,0,0,East,Red Book,0,none
+6.6,500,Luong Son,Hoa Binh,Land lot,0,0,East,Red Book,18,
+0.9,72.8,Thuy Nguyen,Hai Phong,Land lot,0,0,South,Red Book,4.1,
+15,282,Long Thanh,Dong Nai,Townhouse,3,2,,Red Book,0,Full
+0.85,103,Cu Chi,Ho Chi Minh,Land lot,0,0,East,Red Book,5.5,
+3.8,1993,Nhon Trach,Dong Nai,Land lot,0,0,East,Red Book,68,
+6.55,234,Quang Yen,Quang Ninh,Land lot,0,0,South,Red Book,11.7,
+6.2,115,Ha Dong,Ha Noi,Apartment,3,2,,Red Book,0,Full
+2.99,660,Chau Duc,Ba Ria Vung Tau,Land lot,0,0,,Red Book,16,
+23.9,125,Nam Tu Liem,Ha Noi,Apartment,35,35,,Red Book,0,Full
+75,193,Nam Tu Liem,Ha Noi,Villa,6,6,East,Red Book,0,Partially
+28.8,384,District 9,Ho Chi Minh,Land lot,0,0,,Red Book,15,
+17.8,100,Long Bien,Ha Noi,Land lot,0,0,,Red Book,5,
+18.75,150,Hoai Duc,Ha Noi,Land lot,0,0,East,Red Book,10,
+1.55,100,Bien Hoa,Dong Nai,Land lot,0,0,,Red Book,5,
+20.5,84.1,Go Vap,Ho Chi Minh,Townhouse,2,2,West,Red Book,7.63,none
+3.85,62.2,Thu Duc,Ho Chi Minh,Land lot,0,0,,Red Book,5,
+5.54,3464,Kim Boi,Hoa Binh,Land lot,0,0,East,Red Book,60,
+1.29,6023.2,Ea Kar,Dak Lak,Land lot,0,0,East,Red Book,22,
+18.3,93,District 2,Ho Chi Minh,Apartment,2,2,,Contract,0,Full
+2.38,45,Duong Kinh,Hai Phong,Townhouse,4,3,West,Red Book,5,Partially
+15,13322,Bao Lam,Lam Dong,Land lot,0,0,,Red Book,200,
+2.7,65.3,My Hao,Hung Yen,Land lot,0,0,West,Red Book,4.1,
+12.05,32,Ha Dong,Ha Noi,Townhouse,3,4,,Red Book,3.2,Full
+23.9,125,Nam Tu Liem,Ha Noi,Apartment,35,35,,Red Book,0,Full
+75,193,Nam Tu Liem,Ha Noi,Villa,6,6,East,Red Book,0,Partially
+28.8,384,District 9,Ho Chi Minh,Land lot,0,0,,Red Book,15,
+17.8,100,Long Bien,Ha Noi,Land lot,0,0,,Red Book,5,
+18.75,150,Hoai Duc,Ha Noi,Land lot,0,0,East,Red Book,10,
+1.55,100,Bien Hoa,Dong Nai,Land lot,0,0,,Red Book,5,
+20.5,84.1,Go Vap,Ho Chi Minh,Townhouse,2,2,West,Red Book,7.63,none
+3.85,62.2,Thu Duc,Ho Chi Minh,Land lot,0,0,,Red Book,5,
+5.7,73,Thu Duc,Ho Chi Minh,Townhouse,3,3,,Red Book,4.55,
+24,84,Hoang Mai,Ha Noi,Land lot,0,0,East,Red Book,5.2,
+120,12253,Binh Chanh,Ho Chi Minh,Land lot,0,0,,Red Book,42,
+9.15,90,Bac Tu Liem,Ha Noi,Apartment,3,2,,Red Book,0,Full
+4.15,112.9,Thu Dau Mot,Binh Duong,Land lot,0,0,,Red Book,4.2,
+4.9,38,Binh Tan,Ho Chi Minh,Townhouse,3,3,,Red Book,4,
+11.2,70,Binh Thanh,Ho Chi Minh,Townhouse,5,5,,Red Book,0,
+20,192,Bac Tu Liem,Ha Noi,Apartment,5,4,,Red Book,0,Partially
+36,415.3,District 9,Ho Chi Minh,Villa,6,6,West,Red Book,13.24,Full
+28.8,384,District 9,Ho Chi Minh,Land lot,0,0,,Red Book,15,
+17.8,100,Long Bien,Ha Noi,Land lot,0,0,,Red Book,5,
+12,100,Dan Phuong,Ha Noi,Land lot,0,0,East,Red Book,5,
+30.54,12214,Nhon Trach,Dong Nai,Land lot,0,0,,Red Book,20,
+10.85,52,Ngo Quyen,Hai Phong,Townhouse,4,5,West,Red Book,4,Full
+23,120.6,Ngu Hanh Son,Da Nang,Land lot,0,0,West,Red Book,5,
+3.57,21,District 11,Ho Chi Minh,Townhouse,2,2,North,Red Book,3.5,none
+5.79,495,Duc Hoa,Long An,Land lot,0,0,West,Red Book,11,
+12.5,88,Binh Thanh,Ho Chi Minh,Apartment,0,0,,Red Book,,Full
+5.3,104.3,Ngu Hanh Son,Da Nang,Land lot,0,0,South,Red Book,6,
+6.55,108,Ngu Hanh Son,Da Nang,Land lot,0,0,East,Red Book,6,
+0.79,73,Thanh Thuy,Phu Tho,Land lot,0,0,,Red Book,5,
+3.5,70,District 8,Ho Chi Minh,Apartment,2,2,,Contract,0,Full
+2.95,53,Thanh Khe,Da Nang,Townhouse,3,2,,Red Book,4.6,Partially
+5.9,1363.8,Long Thanh,Dong Nai,Land lot,0,0,,Red Book,68,
+6.9,36,Binh Thanh,Ho Chi Minh,Townhouse,4,3,,Red Book,0,
+6.08,64.9,Dong Anh,Ha Noi,Land lot,0,0,East,Red Book,6.22,
+1.4,159,Quang Yen,Quang Ninh,Land lot,0,0,North,Red Book,21,
+8.6,138,Nha Be,Ho Chi Minh,Villa,3,4,,Red Book,5.2,Full
+7.2,46,Phu Nhuan,Ho Chi Minh,Townhouse,2,2,South-East,Red Book,3.6,
+3.85,46.1,District 12,Ho Chi Minh,Land,0,0,South-West,Red Book,4,
+11.8,123,District 2,Ho Chi Minh,Townhouse,5,5,,Red Book,5,Full
+10.1,83.2,District 2,Ho Chi Minh,Townhouse,4,5,,Red Book,5.2,Full
+3.58,119,Hoc Mon,Ho Chi Minh,Land,0,0,,Red Book,5,
+13,108,Binh Thanh,Ho Chi Minh,Apartment,3,2,North-West,Red Book,0,Full
+12.5,93.3,Thu Duc,Ho Chi Minh,Villa,4,5,,Red Book,0,
+7.9,51,Thu Duc,Ho Chi Minh,Townhouse,5,5,East,Red Book,4,Partially
+8.54,97,Tan Binh,Ho Chi Minh,Townhouse,9,0,,Red Book,5.2,
+15.68,132,District 5,Ho Chi Minh,Apartment,3,2,,Red Book,0,Partially
+17.3,120,Van Giang,Ha Noi,Villa,6,4,North-East,Contract,8,
+2.68,72.3,Soc Son,Ha Noi,Land,0,0,South-East,Red Book,4.2,
+6.27,284.9,Quoc Oai,Ha Noi,Land,0,0,,Red Book,19,
+1.9,450.5,Luong Son,Hoa Binh,Land,0,0,,Red Book,0,
+12.9,90,Cau Giay,Ha Noi,Apartment,3,2,North-West,Red Book,0,Full
+3.68,70.3,District 9,Ho Chi Minh,Apartment,2,2,South-West,Red Book,0,Partially
+11.8,111,District 4,Ho Chi Minh,Apartment,3,2,East,Contract,0,Full
+14.76,86.5,Go Vap,Ho Chi Minh,Townhouse,11,11,South-West,Red Book,6,Full
+185,1300,Thu Duc,Ho Chi Minh,Land,0,0,,Red Book,35,
+7.55,44.5,Go Vap,Ho Chi Minh,Townhouse,2,1,South-West,Red Book,3.5,Partially
+8.9,795,Cu Chi,Ho Chi Minh,Land,0,0,North-West,Red Book,16,
+19,100,District 2,Ho Chi Minh,Apartment,2,2,North,South-East,0,Full
+7.8,150.2,District 12,Ho Chi Minh,Townhouse,0,0,,Red Book,7.5,
+2.68,59,Binh Chanh,Ho Chi Minh,Apartment,2,2,North-West,Red Book,0,Partially
+20,188,Thu Duc,Ho Chi Minh,Land,12,12,South-East,Red Book,10.5,
+30,87.5,Van Don,Quang Ninh,Land,0,0,South,Red Book,5,
+6.25,78,Vung Tau,Ba Ria Vung Tau,Townhouse,4,0,North-West,Contract,5,
+17.5,45,Nam Tu Liem,Ha Noi,Townhouse,3,3,,Red Book,4.8,Full
+5.2,56,Binh Tan,Ho Chi Minh,Townhouse,2,3,,Red Book,4,Partially
+1.7,69.2,Soc Son,Ha Noi,Land,0,0,South-East,Red Book,5,
+6.95,73,Thu Duc,Ho Chi Minh,Land,0,0,North-West,Red Book,6,
+5.65,110,District 9,Ho Chi Minh,Land,0,0,North,Red Book,5.63,
+14,232,Thu Duc,Ho Chi Minh,Land,0,0,South,Red Book,15,
+14.3,218,District 2,Ho Chi Minh,Land,0,0,North-East,Red Book,9,
+29.4,97,Phu Nhuan,Ho Chi Minh,Townhouse,4,5,,Red Book,4.6,Full
+5.4,86.2,Hoc Mon,Ho Chi Minh,Townhouse,4,3,North-East,Red Book,4,Partially
+8.2,95,District 7,Ho Chi Minh,Apartment,3,2,South-East,Contract,0,Full
+22,143,District 5,Ho Chi Minh,Apartment,3,3,South-East,Red Book,0,Full
+19.9,119,Go Vap,Ho Chi Minh,Townhouse,7,8,,Red Book,0,Full
+10.8,204.4,Binh Tan,Ho Chi Minh,Townhouse,2,2,North-East,Red Book,12,Full
+5.7,102.4,District 9,Ho Chi Minh,Land,0,0,East,Red Book,5,
+6.5,124,District 12,Ho Chi Minh,Land,0,0,,Red Book,5,
+6.8,150,Hoc Mon,Ho Chi Minh,Townhouse,1,1,South,Red Book,6.7,Partially
+6.59,65.9,Thu Duc,Ho Chi Minh,Townhouse,2,3,,Red Book,4,Partially
+6.2,69.3,Thu Duc,Ho Chi Minh,Land,0,0,,Red Book,4,
+49.81,273.7,Thu Duc,Ho Chi Minh,Land,0,0,North-East,Red Book,12.1,
+1.2,155.7,Cu Chi,Ho Chi Minh,Land,0,0,,Red Book,0,
+4.5,208,Cu Chi,Ho Chi Minh,Townhouse,2,1,,Red Book,8,Partially
+6.95,73.2,Thu Duc,Ho Chi Minh,Land,0,0,North-West,Red Book,5.5,
+12.5,157,Thu Duc,Ho Chi Minh,Land,4,0,South-West,Red Book,6.9,
+13.5,98.7,Go Vap,Ho Chi Minh,Townhouse,15,15,South,Red Book,5.2,Full
+9.8,80,Nha Be,Ho Chi Minh,Townhouse,3,5,North-West,Red Book,5,Full
+3.69,30,District 7,Ho Chi Minh,Townhouse,2,2,,Red Book,0,Partially
+5.65,81.1,Thu Duc,Ho Chi Minh,Townhouse,2,1,South-East,Red Book,4.1,
+5.9,45.4,Nha Be,Ho Chi Minh,Townhouse,2,2,,Red Book,3.5,Partially
+18.5,100,Binh Thanh,Ho Chi Minh,Townhouse,4,5,,Red Book,0,Full
+3.18,50.9,Thu Duc,Ho Chi Minh,Land,0,0,,Red Book,0,
+13,90,Binh Thanh,Ho Chi Minh,Townhouse,9,9,South-West,Red Book,5.2,Full
+36,166,Binh Thanh,Ho Chi Minh,Apartment,4,3,North-East,Red Book,0,Full
+8.7,104.7,Nha Be,Ho Chi Minh,Townhouse,2,2,,Red Book,5,Full
+11,169,District 9,Ho Chi Minh,Townhouse,6,6,,Red Book,5,
+7.5,94,Thu Duc,Ho Chi Minh,Land,0,0,East,Red Book,4.05,
+10.8,56,Binh Thanh,Ho Chi Minh,Townhouse,4,5,,Red Book,4,Full
+15.8,85,Binh Thanh,Ho Chi Minh,Townhouse,2,2,,Red Book,4,
+33,212.9,Binh Thanh,Ho Chi Minh,Townhouse,0,0,,Red Book,5.45,
+9.7,79,District 9,Ho Chi Minh,Townhouse,5,4,,Red Book,4.2,
+6.6,103.8,Thu Duc,Ho Chi Minh,Land,0,0,,Red Book,0,
+12.79,97,Binh Thanh,Ho Chi Minh,Townhouse,0,0,,Red Book,6,Partially
+35,12000,Binh Chanh,Ho Chi Minh,Land,0,0,,Red Book,92,
+11.5,75,District 9,Ho Chi Minh,Townhouse,4,3,,Red Book,5,Partially
+6.78,83,Hoc Mon,Ho Chi Minh,Townhouse,4,4,South-East,Red Book,5,Full
+8.3,90,District 9,Ho Chi Minh,Land,0,0,,Red Book,5,
+18.6,90,District 7,Ho Chi Minh,Townhouse,4,5,,Red Book,5,Full
+6.05,79,District 9,Ho Chi Minh,Land,0,0,,Red Book,6.4,
+20.9,132.4,District 9,Ho Chi Minh,Townhouse,4,5,West,West,6,
+6.9,76,Thu Duc,Ho Chi Minh,Land,0,0,South-East,Red Book,0,
+14,231.8,Thu Duc,Ho Chi Minh,Land,0,0,South,Red Book,14.5,
+12.35,294,District 12,Ho Chi Minh,Land,0,0,,Red Book,0,
+13.8,120,District 9,Ho Chi Minh,Land,0,0,West,Red Book,6,
+3.65,40.2,Tan Binh,Ho Chi Minh,Townhouse,2,2,,Red Book,3.3,
+4.35,71.1,Tan Phu,Ho Chi Minh,Apartment,2,2,,Red Book,0,
+6.37,70,District 7,Ho Chi Minh,Apartment,2,2,North-East,Contract,0,Partially
+53,68,District 1,Ho Chi Minh,Townhouse,10,6,North-East,Red Book,16,Partially
+16.5,97,Tan Binh,Ho Chi Minh,Townhouse,2,2,,Red Book,7.5,
+4.45,65.3,District 12,Ho Chi Minh,Land,0,0,East,Red Book,4,
+16,272.6,District 12,Ho Chi Minh,Land,0,0,East,Red Book,7,
+3.1,65.2,District 9,Ho Chi Minh,Apartment,1,1,East,Red Book,0,Partially
+6.9,73,Thu Duc,Ho Chi Minh,Land,0,0,North-West,Red Book,5.5,
+13,75,Binh Thanh,Ho Chi Minh,Townhouse,9,9,South-West,Red Book,5.2,Full
+19,52.6,District 3,Ho Chi Minh,Townhouse,5,0,,Red Book,10,
+8.5,70.9,Thu Duc,Ho Chi Minh,Townhouse,0,0,,Red Book,3.75,
+18,40.1,District 10,Ho Chi Minh,Townhouse,2,2,,Red Book,6.2,Full
+12.4,493,Hoc Mon,Ho Chi Minh,Land,0,0,North-West,Red Book,7.75,
+6.5,50.8,District 12,Ho Chi Minh,Townhouse,5,5,North-East,Red Book,4.5,Full
+18,128,Thu Duc,Ho Chi Minh,Townhouse,5,6,,Red Book,8,Full
+4.9,105,Hoc Mon,Ho Chi Minh,Land,0,0,,Red Book,0,
+24.45,132.7,Go Vap,Ho Chi Minh,Townhouse,0,0,,Red Book,8,
+18.9,90,District 7,Ho Chi Minh,Townhouse,4,5,,Red Book,5,Full
+5.1,100,Can Gio,Ho Chi Minh,Land,0,0,,Red Book,6,
+117,471,Thu Duc,Ho Chi Minh,Land,0,0,South-West,Red Book,12,
+13.81,144,Binh Chanh,Ho Chi Minh,Villa,3,3,,Red Book,8,Full
+9.5,110,Thu Duc,Ho Chi Minh,Land,0,0,North-East,Red Book,5,
+4.7,40,District 8,Ho Chi Minh,Townhouse,2,2,South-East,Red Book,4,Partially
+33,306,Go Vap,Ho Chi Minh,Land,0,0,South-East,Red Book,0,
+1.5,120,Cu Chi,Ho Chi Minh,Land,0,0,,Red Book,6,
+5,87.8,Thu Duc,Ho Chi Minh,Townhouse,2,2,West,Red Book,16,Partially
+22,187,Tan Phu,Ho Chi Minh,Land,0,0,East,Red Book,10,
+4.18,56,Binh Tan,Ho Chi Minh,Villa,3,2,East,Red Book,4,Partially
+17.3,92.5,District 7,Ho Chi Minh,Townhouse,5,6,East,Red Book,5,Full
+3.7,62.4,District 9,Ho Chi Minh,Land,0,0,,Red Book,4,
+120,12253,Binh Chanh,Ho Chi Minh,Land,0,0,,Red Book,42,
+5.7,73,Thu Duc,Ho Chi Minh,Townhouse,3,3,North-West,Red Book,4.55,
+3.9,59,District 4,Ho Chi Minh,Apartment,1,1,North-West,Red Book,0,Partially
+34.2,171,Thu Duc,Ho Chi Minh,Townhouse,0,0,,Red Book,9,Full
+20.5,84.1,Go Vap,Ho Chi Minh,Townhouse,2,2,South-West,Red Book,7.63,
+72,184,Go Vap,Ho Chi Minh,Townhouse,5,10,South-East,Red Book,8,
+6.9,97,Nha Be,Ho Chi Minh,Apartment,2,2,South,Red Book,0,Full
+4.05,70,Nha Be,Ho Chi Minh,Townhouse,3,2,South-West,Red Book,4.4,
+4.09,65,Binh Tan,Ho Chi Minh,Townhouse,3,2,South,Red Book,5,Full
+32,962,District 12,Ho Chi Minh,Land,0,0,,Red Book,10,
+22.5,355,Binh Tan,Ho Chi Minh,Townhouse,16,16,East,Red Book,5.5,Full
+65,2563,District 12,Ho Chi Minh,Land,0,0,,Red Book,75,
+28.91,803,Can Gio,Ho Chi Minh,Land,0,0,,Red Book,120,
+13.2,54,Phu Nhuan,Ho Chi Minh,Townhouse,10,11,North,Red Book,3.3,
+155,582,Thu Duc,Ho Chi Minh,Villa,0,0,,Red Book,20,
+29,1700,Can Gio,Ho Chi Minh,Land,0,0,,Red Book,16,
+8.8,168,District 12,Ho Chi Minh,Land,0,0,North-East,Red Book,8,
+2.8,62,Binh Tan,Ho Chi Minh,Apartment,2,2,,Red Book,0,
+6.99,64,Nha Be,Ho Chi Minh,Townhouse,4,5,,Red Book,4,Full
+13.65,49,Phu Nhuan,Ho Chi Minh,Townhouse,4,6,,Red Book,5,
+8.45,80,Thu Duc,Ho Chi Minh,Townhouse,4,5,South-West,Red Book,4,Partially
+5,74,Thu Duc,Ho Chi Minh,Land,0,0,,Red Book,5,
+16,435,Thu Duc,Ho Chi Minh,Land,0,0,,Red Book,4,
+20.6,58.1,District 1,Ho Chi Minh,Apartment,1,1,North-West,Red Book,0,Full
+5.15,117,Thu Duc,Ho Chi Minh,Land,0,0,,Red Book,5,
+4.55,54,Thu Duc,Ho Chi Minh,Land,0,0,,Red Book,5,
+8.8,113,District 9,Ho Chi Minh,Land,0,0,,Red Book,0,
+2.9,54,District 9,Ho Chi Minh,Apartment,2,2,,Red Book,0,
+5.5,99,District 9,Ho Chi Minh,Apartment,3,2,,Red Book,0,
+7.8,129,Thu Duc,Ho Chi Minh,Townhouse,2,1,,Red Book,5.1,
+22,230,Thu Duc,Ho Chi Minh,Land,0,0,,Red Book,6,
+14.7,138,District 9,Ho Chi Minh,Land,0,0,,Red Book,5,
+3.45,70,District 12,Ho Chi Minh,Land,0,0,,Red Book,5,
+33,198.3,District 9,Ho Chi Minh,Land,0,0,,Red Book,10,
+13.2,80,Thu Duc,Ho Chi Minh,Land,0,0,,Red Book,4,
+10.3,185,District 9,Ho Chi Minh,Land,3,2,,Red Book,9,
+7.5,36,Phu Nhuan,Ho Chi Minh,Townhouse,4,3,,Red Book,0,Full
+3.7,80,Nha Be,Ho Chi Minh,Land,0,0,North-West,Red Book,5.2,
+8.5,50,District 1,Ho Chi Minh,Townhouse,5,5,,Red Book,4,Full
+18,135,Thu Duc,Ho Chi Minh,Townhouse,14,14,,Red Book,7,
+11.3,74.2,Thu Duc,Ho Chi Minh,Apartment,2,2,,Red Book,0,Partially
+4.98,36,Binh Thanh,Ho Chi Minh,Townhouse,2,2,,Red Book,3.6,
+15.5,62,Tan Binh,Ho Chi Minh,Townhouse,5,3,,Red Book,4,Partially
+6.8,50.7,Go Vap,Ho Chi Minh,Townhouse,0,0,,Red Book,4,Full
+8.1,51,Thu Duc,Ho Chi Minh,Townhouse,4,5,,Red Book,4.21,Partially
+18.5,198,Thu Duc,Ho Chi Minh,Land,0,0,South-East,Red Book,11,
+2.05,120,Cu Chi,Ho Chi Minh,Land,0,0,,Red Book,8,
+6.7,59.53,Tan Binh,Ho Chi Minh,Townhouse,2,2,,Red Book,4,Partially
+25,1014,Go Vap,Ho Chi Minh,Land,0,0,East,Red Book,25,
+1.25,112,Cu Chi,Ho Chi Minh,Land,0,0,,Red Book,8,
+6.88,37,Go Vap,Ho Chi Minh,Townhouse,3,4,,Red Book,6,Full
+7.2,88,Nha Be,Ho Chi Minh,Townhouse,4,6,,Red Book,8,Full
+33,94.6,District 10,Ho Chi Minh,Townhouse,6,6,,Red Book,4,
+10.8,81.1,Nha Be,Ho Chi Minh,Townhouse,4,5,,Red Book,5,Full
+17,1394.1,Binh Chanh,Ho Chi Minh,Land,0,0,,Red Book,20,
+9.8,56,Binh Thanh,Ho Chi Minh,Townhouse,3,3,,Red Book,4,Full
+9.9,82,Binh Thanh,Ho Chi Minh,Townhouse,4,5,South-East,Red Book,4,Full
+7.55,50.5,District 12,Ho Chi Minh,Townhouse,4,6,,Red Book,4.3,Full
+5.75,62,Tan Phu,Ho Chi Minh,Townhouse,3,2,North-West,Red Book,4.3,Partially
+11.8,57,Binh Thanh,Ho Chi Minh,Townhouse,9,0,,Red Book,4.15,Full
+11.05,392.6,Binh Chanh,Ho Chi Minh,Land,0,0,,Red Book,18,
+7.66,109.4,Thu Duc,Ho Chi Minh,Land,0,0,South-East,Red Book,5,
+3,95,Hoc Mon,Ho Chi Minh,Land,0,0,,Red Book,5,
+22.79,92,District 7,Ho Chi Minh,Townhouse,6,7,,Red Book,4,Full
+4.3,42.5,District Gò Vấp,Ho Chi Minh,Townhouse,2,2,North,Red Book,4.05,
+9.57,174,District Nhà Bè,Ho Chi Minh,Land,0,0,West-South,Red Book,9,
+19.8,74.88,District 1,Ho Chi Minh,Townhouse,12,6,East-South,Red Book,4,Full
+11.6,60,Binh Thanh,Ho Chi Minh,Townhouse,5,4,,Red Book,4.2,Full
+4.6,80,District 9,Ho Chi Minh,Townhouse,2,2,,Red Book,12,Partially
+8.4,54,District 8,Ho Chi Minh,Townhouse,5,4,,Red Book,3.6,Full
+75,1425.7,District 9,Ho Chi Minh,Land,0,0,,Red Book,25,
+8.2,100,Thu Duc,Ho Chi Minh,Townhouse,0,0,East,Red Book,5,
+7.2,75.2,Tan Binh,Ho Chi Minh,Land,0,0,,Red Book,4,
+4.8,95,District 9,Ho Chi Minh,Apartment,3,3,,Red Book,0,Partially
+22.5,62.2,District 3,Ho Chi Minh,Townhouse,0,0,,Red Book,4,Full
+5.98,24,District 5,Ho Chi Minh,Townhouse,4,3,West-North,Red Book,3.1,Full
+5,81.3,District 9,Ho Chi Minh,Land,0,0,,Red Book,5,
+11.5,78,Binh Thanh,Ho Chi Minh,Townhouse,5,5,,Red Book,4.8,Full
+7.85,72,District Gò Vấp,Ho Chi Minh,Townhouse,6,6,South,South,4,Partially
+13.5,307.3,District 9,Ho Chi Minh,Land,0,0,,Red Book,16,
+7.5,95,Thu Duc,Ho Chi Minh,Land,0,0,East-South,Red Book,5.2,
+22,105,District 10,Ho Chi Minh,Townhouse,0,0,,Red Book,7.5,Full
+15.99,90,District 7,Ho Chi Minh,Villa,4,5,South,South,5,Full
+9.55,70,Phu Nhuan,Ho Chi Minh,Townhouse,5,6,,Red Book,5,
+7.2,52,Thu Duc,Ho Chi Minh,Townhouse,4,3,,Red Book,4,Full
+8.4,48,Tan Binh,Ho Chi Minh,Townhouse,2,2,West-South,West-South,0,
+65,121.82,District 1,Ho Chi Minh,Apartment,3,2,East-South,Contract,0,Partially
+4.7,65,District 7,Ho Chi Minh,Apartment,2,2,South,North,0,Full
+5,98,Thu Duc,Ho Chi Minh,Land,0,0,North,Red Book,4,
+19.1,278,Thu Duc,Ho Chi Minh,Land,0,0,,Red Book,15,
+66,324.9,Tan Binh,Ho Chi Minh,Villa,7,7,West-South,Red Book,11,Full
+18.5,59.6,District 3,Ho Chi Minh,Townhouse,4,4,West-South,West-South,0,Full
+3.6,50.1,District 9,Ho Chi Minh,Townhouse,2,2,,Red Book,4,Partially
+13.2,106,Tan Binh,Ho Chi Minh,Townhouse,3,2,,Red Book,4.1,Partially
+32,321,District Gò Vấp,Ho Chi Minh,Land,0,0,East-North,Red Book,15,
+4.35,83,Hoc Mon,Ho Chi Minh,Townhouse,3,2,,Red Book,4.3,Full
+40,180,District 2,Ho Chi Minh,Townhouse,1,1,,Red Book,5,
+5,50.3,Thu Duc,Ho Chi Minh,Land,0,0,,Red Book,4.22,
+4.05,719,Cu Chi,Ho Chi Minh,Land,0,0,,Red Book,25,
+4.6,58,District 9,Ho Chi Minh,Land,0,0,,Red Book,4,
+6.5,207,Binh Chanh,Ho Chi Minh,Townhouse,20,20,East,Red Book,4,Partially
+11,108,Thu Duc,Ho Chi Minh,Land,0,0,,Red Book,6,
+6.4,200,Nha Be,Ho Chi Minh,Land,0,0,,Red Book,8,
+4.95,61.4,District 12,Ho Chi Minh,Townhouse,5,2,East-North,East-North,0,Partially
+12.5,64,District 2,Ho Chi Minh,Apartment,1,1,East-North,West-South,0,Full
+5.2,24,District 8,Ho Chi Minh,Townhouse,2,3,,Red Book,3.5,Full
+3.75,101,Nha Be,Ho Chi Minh,Land,0,0,,Red Book,5,
+3.98,62,District 12,Ho Chi Minh,Land,0,0,,Red Book,4,
+7.1,112.8,Thu Duc,Ho Chi Minh,Land,0,0,South,Red Book,5,
+3.75,50,District 2,Ho Chi Minh,Land,0,0,,Red Book,4.5,
+22.5,150,District 9,Ho Chi Minh,Villa,4,5,East-South,East-South,10,Full
+4.8,719,Cu Chi,Ho Chi Minh,Land,0,0,,Red Book,25,
+3.05,59,District 9,Ho Chi Minh,Apartment,2,2,,Red Book,0,Partially
+7.5,181,District 7,Ho Chi Minh,Apartment,2,2,,Red Book,0,
+3.7,67.61,District 7,Ho Chi Minh,Apartment,2,2,,Red Book,0,Full
+1.45,120,Cu Chi,Ho Chi Minh,Land,0,0,,Red Book,5,
+5.2,47,Binh Thanh,Ho Chi Minh,Townhouse,2,2,,Red Book,3.5,Partially
+17.5,313,District 8,Ho Chi Minh,Land,0,0,,Red Book,10,
+13.6,76,Tan Binh,Ho Chi Minh,Townhouse,12,0,,Red Book,11.5,Partially
+5.57,36.4,District 8,Ho Chi Minh,Townhouse,4,3,North,Red Book,3.8,Partially
+4.45,30.2,Tan Phu,Ho Chi Minh,Townhouse,2,2,,Red Book,4,Full
+6.9,51,Nha Be,Ho Chi Minh,Townhouse,4,5,,Red Book,5,Full
+9.9,78.1,Thu Duc,Ho Chi Minh,Townhouse,4,5,North-West,Red Book,5,Full
+11.5,80.7,District 3,Ho Chi Minh,Townhouse,3,2,,Red Book,4,Partially
+5.5,101,Binh Tan,Ho Chi Minh,Townhouse,1,1,,Red Book,8,Partially
+2.5,51,District 9,Ho Chi Minh,Apartment,1,1,South-East,Red Book,0,Partially
+2.2,55,Binh Chanh,Ho Chi Minh,Apartment,2,2,,Contract,0,Full
+10,61,Binh Thanh,Ho Chi Minh,Apartment,7,5,,Red Book,4.3,Partially
+4.35,20,District 3,Ho Chi Minh,Townhouse,2,3,,Red Book,2.7,Full
+19.8,74.88,District 1,Ho Chi Minh,Apartment,10,10,,Red Book,4,Full
+5.7,81,Thu Duc,Ho Chi Minh,Townhouse,3,3,,Red Book,11,
+26,76,District 1,Ho Chi Minh,Townhouse,7,5,,Red Book,3.9,Full
+6.68,42,Go Vap,Ho Chi Minh,Townhouse,3,3,East,Red Book,3.5,Partially
+3,60.9,District 9,Ho Chi Minh,Apartment,2,1,,Red Book,0,
+8.2,100,District 9,Ho Chi Minh,Apartment,3,2,South-East,Contract,0,
+4.5,40,Binh Tan,Ho Chi Minh,Townhouse,3,2,,Red Book,4,Full
+3.45,54,District 9,Ho Chi Minh,Apartment,1,1,South-East,Contract,0,
+20.4,225,Tan Binh,Ho Chi Minh,Apartment,10,10,,Red Book,0,
+9,63,Binh Thanh,Ho Chi Minh,Townhouse,3,3,North,Red Book,4.4,Full
+2.7,47,District 9,Ho Chi Minh,Apartment,1,1,,Contract,0,Partially
+3.7,81,District 9,Ho Chi Minh,Apartment,3,2,South-East,Red Book,0,Full
+6.9,59.1,District 9,Ho Chi Minh,Townhouse,4,5,North-East,Red Book,4.35,Full
+4.85,72,Thu Duc,Ho Chi Minh,Apartment,2,2,South-East,Red Book,0,Full
+25.5,99.6,District 10,Ho Chi Minh,Townhouse,6,6,,Red Book,7,Full
+10.4,98.5,District 9,Ho Chi Minh,Townhouse,4,3,,Red Book,0,Full
+10.8,29,District 1,Ho Chi Minh,Townhouse,5,5,,Red Book,10,Full
+8.9,32,District 10,Ho Chi Minh,Townhouse,4,4,East,Red Book,3.3,Full
+3.4,54,District 9,Ho Chi Minh,Apartment,1,1,,Contract,0,Partially
+2.15,55,Binh Chanh,Ho Chi Minh,Apartment,2,2,,Contract,0,Partially
+22.7,102.9,District 1,Ho Chi Minh,Apartment,3,2,,Red Book,0,Full
+1.95,50,Binh Chanh,Ho Chi Minh,Apartment,2,2,,Contract,0,Partially
+23.3,55.3,District 1,Ho Chi Minh,Townhouse,5,4,,Red Book,4,Full
+5.3,58.2,Nha Be,Ho Chi Minh,Townhouse,4,3,South,South,5.6,Partially
+5.2,20.6,Phu Nhuan,Ho Chi Minh,Townhouse,3,4,,Red Book,4,Full
+7.3,97,District 2,Ho Chi Minh,Land,3,2,,Red Book,6,Full
+8.99,54,Go Vap,Ho Chi Minh,Townhouse,4,5,,Red Book,4,Full
+27.9,87.4,District 1,Ho Chi Minh,Townhouse,10,8,,Red Book,4,Luxury
+3.89,23,Go Vap,Ho Chi Minh,Townhouse,2,3,,Red Book,4.1,Full
+14.8,72,Binh Thanh,Ho Chi Minh,Townhouse,4,4,,Red Book,4.5,Partially
+4.6,20,District 3,Ho Chi Minh,Townhouse,3,3,,Red Book,3.2,Full
+10.6,43,District 10,Ho Chi Minh,Townhouse,4,4,,Red Book,3.9,Full
+6.35,62,District 10,Ho Chi Minh,Townhouse,3,3,,Red Book,4,
+5.4,133,District 9,Ho Chi Minh,Townhouse,2,1,East,Red Book,6,
+7.9,52,District 12,Ho Chi Minh,Townhouse,4,6,East,Red Book,3.5,Full
+5.8,71.2,Thu Duc,Ho Chi Minh,Townhouse,4,3,North,Red Book,7,
+6.4,77,District 12,Ho Chi Minh,Townhouse,2,3,,Red Book,4.5,
+16.5,117,Thu Duc,Ho Chi Minh,Villa,3,3,,Red Book,8,Full
+6,50,District 15,Ho Chi Minh,Townhouse,3,3,,Red Book,4,Full
+7.8,129,Thu Duc,Ho Chi Minh,Townhouse,2,1,,Red Book,5.09,
+6.95,38.5,District 1,Ho Chi Minh,Townhouse,3,4,,Red Book,,Partially
+3.75,80,District 7,Ho Chi Minh,Apartment,2,2,South,Red Book,,Full
+5.2,51.5,District 12,Ho Chi Minh,Townhouse,4,4,,Red Book,6,Partially
+4.9,55,Thu Duc,Ho Chi Minh,Townhouse,2,2,West-South,Red Book,4.5,Partially
+10.9,45.3,Tan Binh,Ho Chi Minh,Townhouse,8,8,,Red Book,5,Full
+7.3,19.6,Tan Binh,Ho Chi Minh,Townhouse,4,3,West-North,Red Book,3.4,Full
+6.8,63,District 12,Ho Chi Minh,Townhouse,4,3,East-North,Red Book,4,Partially
+9.25,42,Phu Nhuan,Ho Chi Minh,Townhouse,4,4,,Red Book,4,Full
+4.25,35,Tan Binh,Ho Chi Minh,Townhouse,3,2,West-North,Red Book,5,Full
+8.9,64.4,District 13,Ho Chi Minh,Townhouse,4,6,,Red Book,4,Full
+23.8,82.5,District 3,Ho Chi Minh,Townhouse,6,6,,Red Book,5,Full
+14,108,Binh Thanh,Ho Chi Minh,Apartment,3,2,,Red Book,,Full
+12.8,66,District 11,Ho Chi Minh,Townhouse,6,6,,Red Book,5,Full
+11.5,74.2,District 2,Ho Chi Minh,Apartment,2,2,,Red Book,,Partially
+5.4,42.3,District 7,Ho Chi Minh,Townhouse,3,2,,Red Book,4,Partially
+5.8,24,Binh Thanh,Ho Chi Minh,Townhouse,2,3,,Red Book,3.2,
+9.5,49.5,Binh Thanh,Ho Chi Minh,Townhouse,4,5,,Red Book,4.5,
+5.2,26.13,Tan Binh,Ho Chi Minh,Townhouse,2,0,,Red Book,5,Partially
+17,80,District 7,Ho Chi Minh,Townhouse,3,5,South-West,Red Book,5,Full
+8.68,44,Binh Thanh,Ho Chi Minh,Townhouse,5,3,,Red Book,4,Full
+7.75,62,District 7,Ho Chi Minh,Townhouse,4,5,South-West,Red Book,4,Full
+95,374,District 2,Ho Chi Minh,Villa,5,6,,Red Book,17,Partially
+3.26,69,Binh Chanh,Ho Chi Minh,Apartment,2,2,,Red Book,0,Partially
+4.35,18,Binh Thanh,Ho Chi Minh,Townhouse,3,4,North-East,Red Book,5,Full
+3.76,70,District 9,Ho Chi Minh,Apartment,2,2,,Red Book,0,Partially
+4.79,17.8,Phu Nhuan,Ho Chi Minh,Townhouse,2,3,,Red Book,5.37,Full
+9,49,Binh Thanh,Ho Chi Minh,Townhouse,8,8,,Red Book,6.5,Full
+3.09,53.2,District 7,Ho Chi Minh,Apartment,1,1,,Contract,0,
+24,133.33,Tan Binh,Ho Chi Minh,Townhouse,12,12,,Red Book,7,Full
+16.8,153,Binh Tan,Ho Chi Minh,Villa,5,6,South-East,Red Book,7,Full
+29.5,90,District 7,Ho Chi Minh,Townhouse,4,5,West,Red Book,4.5,Partially
+139,200,District 7,Ho Chi Minh,Townhouse,50,30,,Red Book,10,Full
+7.9,81,Nha Be,Ho Chi Minh,Townhouse,4,3,,Red Book,7,Partially
+7.1,80,District 9,Ho Chi Minh,Townhouse,6,4,,Red Book,4,Partially
+4.85,43,Binh Thanh,Ho Chi Minh,Townhouse,3,3,,Red Book,3.5,Full
+10.9,67.9,Binh Thanh,Ho Chi Minh,Townhouse,9,10,,Red Book,0,Full
+8.88,72,Go Vap,Ho Chi Minh,Townhouse,4,5,,Red Book,4,Full
+2.85,47,District 9,Ho Chi Minh,Apartment,1,1,South-West,Contract,0,
+13.9,61,District 3,Ho Chi Minh,Townhouse,4,5,,Red Book,4.4,Full
+4.58,26.5,Tan Binh,Ho Chi Minh,Townhouse,2,3,North-East,Red Book,3.45,Partially
+15,112,Tan Phu,Ho Chi Minh,Townhouse,12,13,,Red Book,6.2,Partially
+19,102,District 9,Ho Chi Minh,Townhouse,4,4,East,Red Book,6,Partially
+9.5,80,Go Vap,Ho Chi Minh,Townhouse,5,7,,Red Book,5.2,Full
+6.99,52,Tan Binh,Ho Chi Minh,Townhouse,5,3,North-West,Red Book,5.1,Partially
+16.8,64,Tan Binh,Ho Chi Minh,Townhouse,4,3,,Red Book,4,
